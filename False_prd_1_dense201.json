@@ -1,0 +1,4352 @@
+[
+  {
+    "image_id": "11e9da04c64dd999e63f53cf65599c47.jpg",
+    "predicted": 33,
+    "expected": 0
+  },
+  {
+    "image_id": "6876fcbfb0d473e35fabfc84896782f9.jpg",
+    "predicted": 33,
+    "expected": 0
+  },
+  {
+    "image_id": "91d1f720382613b147b65ec86adeb40d.jpg",
+    "predicted": 33,
+    "expected": 0
+  },
+  {
+    "image_id": "b73e2e547e3b946dfdf1d9d73a189b45.jpg",
+    "predicted": 1,
+    "expected": 0
+  },
+  {
+    "image_id": "1f22740f977c218df948ef8f91a3d71c.jpg",
+    "predicted": 32,
+    "expected": 1
+  },
+  {
+    "image_id": "474376703664ffabd0a0c5c68b9cf2e1.jpg",
+    "predicted": 0,
+    "expected": 1
+  },
+  {
+    "image_id": "59d3a2b92fd5ae63ad5df68e20427fb8.jpg",
+    "predicted": 33,
+    "expected": 1
+  },
+  {
+    "image_id": "8fd00d9a828c3afec94f224bf6e7d654.jpg",
+    "predicted": 2,
+    "expected": 1
+  },
+  {
+    "image_id": "b8199a66-9ef5-498c-b55d-9a05d67433a5___FREC_Scab 2920.JPG",
+    "predicted": 2,
+    "expected": 1
+  },
+  {
+    "image_id": "be076652-b1bd-430c-a752-db525c1dfcfd___FREC_Scab 3367.JPG",
+    "predicted": 0,
+    "expected": 1
+  },
+  {
+    "image_id": "c563cf1c-da17-4c03-b3e8-b306334e0270___FREC_Scab 2933.JPG",
+    "predicted": 2,
+    "expected": 1
+  },
+  {
+    "image_id": "ef91867f-33c5-4063-9783-44fd47238fe0___FREC_Scab 2935.JPG",
+    "predicted": 2,
+    "expected": 1
+  },
+  {
+    "image_id": "1e3c14b59e46b164914f0e797e391680.jpg",
+    "predicted": 1,
+    "expected": 2
+  },
+  {
+    "image_id": "28c73896248ddd9315ca1e8f4b4da002.jpg",
+    "predicted": 1,
+    "expected": 2
+  },
+  {
+    "image_id": "2a061d7cb7e10f2b217df10ae4f112c8.jpg",
+    "predicted": 1,
+    "expected": 2
+  },
+  {
+    "image_id": "b0b1320b56c623d5081a0e05e5d28db7.jpg",
+    "predicted": 1,
+    "expected": 2
+  },
+  {
+    "image_id": "b1e97db0bb3453efec8649015467bda3.jpg",
+    "predicted": 7,
+    "expected": 2
+  },
+  {
+    "image_id": "cdbed6b32808b051e0cfc4d0bedf275f.jpg",
+    "predicted": 1,
+    "expected": 2
+  },
+  {
+    "image_id": "d83de01988eb2f409f3785ee5f8d199b.jpg",
+    "predicted": 1,
+    "expected": 2
+  },
+  {
+    "image_id": "9ebff92f-999c-49d0-9235-6c98aaa63bbd___FREC_C.Rust 4206.JPG",
+    "predicted": 4,
+    "expected": 5
+  },
+  {
+    "image_id": "093d5f5b-f724-457e-b354-7f74b07cba64___FREC_Pwd.M 5078.JPG",
+    "predicted": 8,
+    "expected": 7
+  },
+  {
+    "image_id": "096c6145-3976-48f3-8d14-54b16af6975f___FREC_Pwd.M 5153.JPG",
+    "predicted": 8,
+    "expected": 7
+  },
+  {
+    "image_id": "15042e84-a171-479d-adb4-18c579b6a211___FREC_Pwd.M 5095.JPG",
+    "predicted": 8,
+    "expected": 7
+  },
+  {
+    "image_id": "2d356a28-26fe-45e9-8f3d-d65c7a5be236___FREC_Pwd.M 0420.JPG",
+    "predicted": 8,
+    "expected": 7
+  },
+  {
+    "image_id": "728525fd-75a3-4356-a7b4-34d56c31e12b___FREC_Pwd.M 4857.JPG",
+    "predicted": 8,
+    "expected": 7
+  },
+  {
+    "image_id": "7665ae36-28ec-4350-9798-89b4a32e32a8___FREC_Pwd.M 5124.JPG",
+    "predicted": 8,
+    "expected": 7
+  },
+  {
+    "image_id": "870231af-5ab9-4bb9-8892-347dabf2cb9d___FREC_Pwd.M 5044.JPG",
+    "predicted": 8,
+    "expected": 7
+  },
+  {
+    "image_id": "94523c3e-044e-4bec-9850-297de335cdf6___FREC_Pwd.M 5070.JPG",
+    "predicted": 8,
+    "expected": 7
+  },
+  {
+    "image_id": "ab79b5ac-9d44-42c8-a745-25cca89aed90___FREC_Pwd.M 4925.JPG",
+    "predicted": 8,
+    "expected": 7
+  },
+  {
+    "image_id": "beea0c7e-0e13-4852-ac62-4f393c51c9e0___FREC_Pwd.M 4941.JPG",
+    "predicted": 8,
+    "expected": 7
+  },
+  {
+    "image_id": "bf5d1d44-32b5-4e50-8bac-a2db6855ab61___FREC_Pwd.M 5129.JPG",
+    "predicted": 8,
+    "expected": 7
+  },
+  {
+    "image_id": "d5a1ac22-21ee-48d8-b5a0-1fb3b788a4b5___FREC_Pwd.M 5159.JPG",
+    "predicted": 8,
+    "expected": 7
+  },
+  {
+    "image_id": "e97b9522-a04c-4b63-9062-8b857022509d___FREC_Pwd.M 0544.JPG",
+    "predicted": 8,
+    "expected": 7
+  },
+  {
+    "image_id": "03132cd9-1649-4de0-aa41-de6eb60d4878___FREC_Pwd.M 0372.JPG",
+    "predicted": 7,
+    "expected": 8
+  },
+  {
+    "image_id": "0b6b54b6-08ee-4f0c-89d9-b4d184f9decb___FREC_Pwd.M 4981.JPG",
+    "predicted": 7,
+    "expected": 8
+  },
+  {
+    "image_id": "167d6c02-d49c-4571-b9b8-6d77be09dfb4___FREC_Pwd.M 0256.JPG",
+    "predicted": 7,
+    "expected": 8
+  },
+  {
+    "image_id": "3f16d4f4-5cc6-4817-852f-6ab66dcee360___FREC_Pwd.M 0528.JPG",
+    "predicted": 7,
+    "expected": 8
+  },
+  {
+    "image_id": "405685ad-41e4-4bca-b1ca-f7464141c46e___FREC_Pwd.M 0321.JPG",
+    "predicted": 7,
+    "expected": 8
+  },
+  {
+    "image_id": "82d1cf96-b56d-4476-a14e-759319b473b8___FREC_Pwd.M 0519.JPG",
+    "predicted": 7,
+    "expected": 8
+  },
+  {
+    "image_id": "8af92c46-f8c4-4b63-a9db-8718f2ac1dd4___FREC_Pwd.M 0438.JPG",
+    "predicted": 7,
+    "expected": 8
+  },
+  {
+    "image_id": "8bdd0a9b-df18-4587-a4ac-09a7cf651d54___FREC_Pwd.M 0377.JPG",
+    "predicted": 7,
+    "expected": 8
+  },
+  {
+    "image_id": "baf48061-d4ee-45b3-8806-d26ad15bb8ad___FREC_Pwd.M 0328.JPG",
+    "predicted": 7,
+    "expected": 8
+  },
+  {
+    "image_id": "c6d3f6f6-479f-41f0-adb2-6674181932f2___FREC_Pwd.M 0330.JPG",
+    "predicted": 7,
+    "expected": 8
+  },
+  {
+    "image_id": "dc06d560-e913-4f2f-adb9-7fe0ab5b5a92___FREC_Pwd.M 4580.JPG",
+    "predicted": 7,
+    "expected": 8
+  },
+  {
+    "image_id": "dd9b1943-fdfa-468a-a09c-c80fbdde7c5d___FREC_Pwd.M 0247.JPG",
+    "predicted": 7,
+    "expected": 8
+  },
+  {
+    "image_id": "2e3967fd-d97c-4985-ab63-4ee8bdb6a0bb___RS_GLSp 4680 copy.jpg",
+    "predicted": 15,
+    "expected": 10
+  },
+  {
+    "image_id": "649114431d381536cd3bd511ac0bea65.jpg",
+    "predicted": 11,
+    "expected": 10
+  },
+  {
+    "image_id": "64c5f0a7bacbaacb3cae53c266f71cf5.jpg",
+    "predicted": 14,
+    "expected": 10
+  },
+  {
+    "image_id": "a5ab43da-2672-4993-b24a-46d0cae88fa6___RS_GLSp 9355.JPG",
+    "predicted": 11,
+    "expected": 10
+  },
+  {
+    "image_id": "dc6a4225-a2a5-4eb8-bd41-852c00def800___RS_GLSp 4388.JPG",
+    "predicted": 11,
+    "expected": 10
+  },
+  {
+    "image_id": "f07f29aaeeae09f151e6c8bb08a43ba4.jpg",
+    "predicted": 15,
+    "expected": 10
+  },
+  {
+    "image_id": "22b0a72e-66bf-47ae-86ef-da6e85e31056___RS_GLSp 4405.JPG",
+    "predicted": 15,
+    "expected": 11
+  },
+  {
+    "image_id": "22d4c7b41d23d8a9f826a49ce6df4cc9.jpg",
+    "predicted": 10,
+    "expected": 11
+  },
+  {
+    "image_id": "27db0747-841a-454c-aff6-cb506689cca9___RS_GLSp 9347.JPG",
+    "predicted": 10,
+    "expected": 11
+  },
+  {
+    "image_id": "3e4f3d75434884df4a5350d168f47b0b.jpg",
+    "predicted": 10,
+    "expected": 11
+  },
+  {
+    "image_id": "89edb9c3-2ae7-4a95-937f-74778fc98df0___RS_GLSp 7287.JPG",
+    "predicted": 10,
+    "expected": 11
+  },
+  {
+    "image_id": "c2420daa602afd209264c4ed60ed5745.jpg",
+    "predicted": 10,
+    "expected": 11
+  },
+  {
+    "image_id": "e1e56d9b06da9fe2feb2c1dbeee5a12e.jpg",
+    "predicted": 15,
+    "expected": 11
+  },
+  {
+    "image_id": "e669b168-a25c-4770-9d2b-a89e3e6c421a___RS_GLSp 4463.JPG",
+    "predicted": 10,
+    "expected": 11
+  },
+  {
+    "image_id": "f2b10ea40a75bab012f8bbfe4c22708e.jpg",
+    "predicted": 10,
+    "expected": 11
+  },
+  {
+    "image_id": "fcda8ab29fcb75b22ec5975151f25aa1.jpg",
+    "predicted": 10,
+    "expected": 11
+  },
+  {
+    "image_id": "063c2e68-e849-4673-9083-ff21922673d7___RS_Rust 2313.JPG",
+    "predicted": 13,
+    "expected": 12
+  },
+  {
+    "image_id": "311486e8-251a-4079-bb3c-e9dea8de9947___RS_Rust 1650.JPG",
+    "predicted": 13,
+    "expected": 12
+  },
+  {
+    "image_id": "4d912313-c5f4-4058-b2a0-3d3832275f29___RS_Rust 2727.JPG",
+    "predicted": 13,
+    "expected": 12
+  },
+  {
+    "image_id": "4f8107c7-6c2a-422d-b7cf-3da25a9b5622___RS_Rust 2090.JPG",
+    "predicted": 13,
+    "expected": 12
+  },
+  {
+    "image_id": "5192040a-ddcb-4494-b0f0-f7892a3babc3___RS_Rust 1564.JPG",
+    "predicted": 13,
+    "expected": 12
+  },
+  {
+    "image_id": "6b5a0ff3-3827-4013-b00b-99315b00f389___RS_Rust 2729.JPG",
+    "predicted": 13,
+    "expected": 12
+  },
+  {
+    "image_id": "89cd0a72-f4cd-4f4e-bc89-14ead790d281___RS_Rust 2407.JPG",
+    "predicted": 13,
+    "expected": 12
+  },
+  {
+    "image_id": "89df39d9-147d-4286-8e5c-6253417c2e66___RS_Rust 2630.JPG",
+    "predicted": 13,
+    "expected": 12
+  },
+  {
+    "image_id": "ba187464-211c-40ae-a5d0-ba5e7850143c___RS_Rust 2173.JPG",
+    "predicted": 13,
+    "expected": 12
+  },
+  {
+    "image_id": "c6885a36-e019-4a9a-85e1-b21a1ab0c2c7___RS_Rust 1730.JPG",
+    "predicted": 13,
+    "expected": 12
+  },
+  {
+    "image_id": "d09e3cf9-50a3-48c5-9b94-bce61fa340c5___RS_Rust 1653.JPG",
+    "predicted": 13,
+    "expected": 12
+  },
+  {
+    "image_id": "db0ea437-933d-46ac-ab40-13ca800ee28f___RS_Rust 2224.JPG",
+    "predicted": 13,
+    "expected": 12
+  },
+  {
+    "image_id": "2f09e82fe092635e09ddab4054a123f4.jpg",
+    "predicted": 12,
+    "expected": 13
+  },
+  {
+    "image_id": "31d386fb-22bf-4293-ab03-8bc4882aca49___RS_Rust 2029.JPG",
+    "predicted": 12,
+    "expected": 13
+  },
+  {
+    "image_id": "3d87efc33102e7ad93994028c34755c9.jpg",
+    "predicted": 12,
+    "expected": 13
+  },
+  {
+    "image_id": "4e20a83a353f432e9d573aa1a810daf8.jpg",
+    "predicted": 12,
+    "expected": 13
+  },
+  {
+    "image_id": "4e951416-8258-4185-8fc7-b7267415c228___RS_Rust 1802.JPG",
+    "predicted": 12,
+    "expected": 13
+  },
+  {
+    "image_id": "4fb59e17f20c21b617efc77e2cd40671.jpg",
+    "predicted": 12,
+    "expected": 13
+  },
+  {
+    "image_id": "921a3e73-f4a3-4069-8107-cf0f5fcff9e4___RS_Rust 1605.JPG",
+    "predicted": 12,
+    "expected": 13
+  },
+  {
+    "image_id": "924e583ac8f8dd8e917cf349c192b743.jpg",
+    "predicted": 12,
+    "expected": 13
+  },
+  {
+    "image_id": "94c4563ddae08a14797506fd1e8ca532.jpg",
+    "predicted": 12,
+    "expected": 13
+  },
+  {
+    "image_id": "9d837916627a5e6f577b4b5a03288e33.jpg",
+    "predicted": 12,
+    "expected": 13
+  },
+  {
+    "image_id": "b6d6272d-47d9-4506-a0f6-35edc3dddd38___RS_Rust 1804.JPG",
+    "predicted": 12,
+    "expected": 13
+  },
+  {
+    "image_id": "c69531a1c3e565f4696aa5eef5a37879.jpg",
+    "predicted": 12,
+    "expected": 13
+  },
+  {
+    "image_id": "f6116423-42c0-4ca8-82fe-6a859a95aec1___RS_Rust 1705.JPG",
+    "predicted": 12,
+    "expected": 13
+  },
+  {
+    "image_id": "1c774cba263d6739cb90a0383a1efe01 - \u526f\u672c.jpg",
+    "predicted": 15,
+    "expected": 14
+  },
+  {
+    "image_id": "2943d3dd14cc926204954d3401bb9b55.jpg",
+    "predicted": 10,
+    "expected": 14
+  },
+  {
+    "image_id": "52f09c0a8b83430f17b2919a02f2d0ad.jpg",
+    "predicted": 15,
+    "expected": 14
+  },
+  {
+    "image_id": "66722401ada3a09b302f4b55dc536da3.jpg",
+    "predicted": 12,
+    "expected": 14
+  },
+  {
+    "image_id": "b3e9794ec7bd87cc97d3523d10ed2ee3.jpg",
+    "predicted": 11,
+    "expected": 14
+  },
+  {
+    "image_id": "1a9107c52913ef9a056095252f961096 - \u526f\u672c - \u526f\u672c.jpg",
+    "predicted": 14,
+    "expected": 15
+  },
+  {
+    "image_id": "203f4107cbcbfc10c2b3433f1f9cd914.jpg",
+    "predicted": 11,
+    "expected": 15
+  },
+  {
+    "image_id": "2d5f3148a62da447b18ade8769d823cb.jpg",
+    "predicted": 14,
+    "expected": 15
+  },
+  {
+    "image_id": "34cd8905c106c5a9781a660aab97f08b.jpg",
+    "predicted": 11,
+    "expected": 15
+  },
+  {
+    "image_id": "472dab4731670c28b86ebb04a18f97fb.jpg",
+    "predicted": 10,
+    "expected": 15
+  },
+  {
+    "image_id": "4750f625-023b-46c8-8236-9a3c6bb93c73___RS_NLB 3471.JPG",
+    "predicted": 14,
+    "expected": 15
+  },
+  {
+    "image_id": "67806b3e0866a784aa877e587dbd166c.jpg",
+    "predicted": 11,
+    "expected": 15
+  },
+  {
+    "image_id": "68a635c48a60a161a621fb1640b312fc.jpg",
+    "predicted": 11,
+    "expected": 15
+  },
+  {
+    "image_id": "709f5807f7cb80b80aed5700fd69e5f9.jpg",
+    "predicted": 14,
+    "expected": 15
+  },
+  {
+    "image_id": "79d78748-a6b6-489f-813d-5bceb0e9988b___RS_NLB 3666.JPG",
+    "predicted": 11,
+    "expected": 15
+  },
+  {
+    "image_id": "869af5eaf420d605d3b6059cf8b03b9e.jpg",
+    "predicted": 11,
+    "expected": 15
+  },
+  {
+    "image_id": "89e432bc643c193a6f80263137e6e990.jpg",
+    "predicted": 14,
+    "expected": 15
+  },
+  {
+    "image_id": "9fa592aa-6724-4d4d-b00c-9f933918ab92___RS_NLB 3785.JPG",
+    "predicted": 11,
+    "expected": 15
+  },
+  {
+    "image_id": "a294edd3-2e37-4901-b35a-454480f4cea1___RS_NLB 0768.JPG",
+    "predicted": 14,
+    "expected": 15
+  },
+  {
+    "image_id": "a87258d09d1a2390c615eb1105f56451 - \u526f\u672c.jpg",
+    "predicted": 14,
+    "expected": 15
+  },
+  {
+    "image_id": "a87258d09d1a2390c615eb1105f56451.jpg",
+    "predicted": 14,
+    "expected": 15
+  },
+  {
+    "image_id": "af7d0ebae1dc14387f5529a04d2a7871.jpg",
+    "predicted": 14,
+    "expected": 15
+  },
+  {
+    "image_id": "c685ee7f-627d-4476-b927-7b753553081d___RS_NLB 3986.JPG",
+    "predicted": 14,
+    "expected": 15
+  },
+  {
+    "image_id": "d8a2c04c-5d2b-485c-aaff-1440c0cd65e1___RS_NLB 3695.JPG",
+    "predicted": 14,
+    "expected": 15
+  },
+  {
+    "image_id": "e640548d0e80c97fb6ad962fa5db0bc4.jpg",
+    "predicted": 14,
+    "expected": 15
+  },
+  {
+    "image_id": "000f74d036a32b5afc286336e077e26e.jpg",
+    "predicted": 19,
+    "expected": 18
+  },
+  {
+    "image_id": "09cfe515-118c-475d-9f94-de565f56eb69___FAM_B.Rot 0360.JPG",
+    "predicted": 19,
+    "expected": 18
+  },
+  {
+    "image_id": "3cbdecf2-1139-457e-ae80-12a504806b78___FAM_B.Rot 3294.JPG",
+    "predicted": 19,
+    "expected": 18
+  },
+  {
+    "image_id": "3f092a00-8ffd-4bc7-9c33-17555cb192c3___FAM_B.Rot 0654.JPG",
+    "predicted": 19,
+    "expected": 18
+  },
+  {
+    "image_id": "61c865cc-fecf-437d-aa7d-e1d836723f62___FAM_B.Rot 3040.JPG",
+    "predicted": 19,
+    "expected": 18
+  },
+  {
+    "image_id": "69b729ed34c4dbae13a611b55f700395.jpg",
+    "predicted": 20,
+    "expected": 18
+  },
+  {
+    "image_id": "7b68f373-bb42-4477-86f6-5c69768180bc___FAM_B.Rot 3538.JPG",
+    "predicted": 19,
+    "expected": 18
+  },
+  {
+    "image_id": "8bcd5472fa3f0233e0c67675e07c8a84.jpg",
+    "predicted": 19,
+    "expected": 18
+  },
+  {
+    "image_id": "9911cd1e-2dc0-4395-9775-6572c99bf253___FAM_B.Rot 0680.JPG",
+    "predicted": 19,
+    "expected": 18
+  },
+  {
+    "image_id": "a6e19d46-c344-44c6-b6dd-dde257d23279___FAM_B.Rot 3447.JPG",
+    "predicted": 19,
+    "expected": 18
+  },
+  {
+    "image_id": "cf1f331a-313d-4fa5-9397-ea99a0cd2a59___FAM_B.Rot 3139.JPG",
+    "predicted": 19,
+    "expected": 18
+  },
+  {
+    "image_id": "da9513b8-5974-4ccc-8a64-3c6c9047010a___FAM_B.Rot 3541.JPG",
+    "predicted": 19,
+    "expected": 18
+  },
+  {
+    "image_id": "e784c098-9310-4be2-8c69-cfb42254186e___FAM_B.Rot 3295.JPG",
+    "predicted": 19,
+    "expected": 18
+  },
+  {
+    "image_id": "efe1eba2-52c3-4399-a851-3095e4d1e86a___FAM_B.Rot 0633.JPG",
+    "predicted": 19,
+    "expected": 18
+  },
+  {
+    "image_id": "36af79ab1767f3bebb8fcf999a84c843.jpg",
+    "predicted": 18,
+    "expected": 19
+  },
+  {
+    "image_id": "4d2997871fd17e56a810f4566785de8b.jpg",
+    "predicted": 18,
+    "expected": 19
+  },
+  {
+    "image_id": "5ca2ac16-73d9-475d-bb60-40afddb76ef0___FAM_B.Rot 3409.JPG",
+    "predicted": 18,
+    "expected": 19
+  },
+  {
+    "image_id": "77ee868fcd785bc3e2b4afa6a2bf8c74.jpg",
+    "predicted": 18,
+    "expected": 19
+  },
+  {
+    "image_id": "82f7341efbef816580e70f67ca12e991.jpg",
+    "predicted": 18,
+    "expected": 19
+  },
+  {
+    "image_id": "9475973d6938dbd83146f5dd504164e2.jpg",
+    "predicted": 18,
+    "expected": 19
+  },
+  {
+    "image_id": "aa529d14393931a6a67aa4748fe11313.jpg",
+    "predicted": 18,
+    "expected": 19
+  },
+  {
+    "image_id": "adfe6f1a69872566be15812143f05af1.jpg",
+    "predicted": 18,
+    "expected": 19
+  },
+  {
+    "image_id": "d240a0b314027577da694242d59edae8.jpg",
+    "predicted": 18,
+    "expected": 19
+  },
+  {
+    "image_id": "eaf7e4e70f828a2a50ad310c85444cf2.jpg",
+    "predicted": 18,
+    "expected": 19
+  },
+  {
+    "image_id": "f09d423ec3b7bd6f43057ba8441a0f35.jpg",
+    "predicted": 18,
+    "expected": 19
+  },
+  {
+    "image_id": "03dfe516b35e7438e390ed22c013bf51.jpg",
+    "predicted": 21,
+    "expected": 20
+  },
+  {
+    "image_id": "21575550de38b96f18efa1ce5ab0f4c8.jpg",
+    "predicted": 21,
+    "expected": 20
+  },
+  {
+    "image_id": "24fedb3fca010ef59f6fff01d22e1169.jpg",
+    "predicted": 21,
+    "expected": 20
+  },
+  {
+    "image_id": "7613cf1c89597e1b31587c8d0868879d.jpg",
+    "predicted": 21,
+    "expected": 20
+  },
+  {
+    "image_id": "b06777d183361e671de806da15047081.jpg",
+    "predicted": 21,
+    "expected": 20
+  },
+  {
+    "image_id": "b5c9170e7c3258e8619b39691d869814.jpg",
+    "predicted": 21,
+    "expected": 20
+  },
+  {
+    "image_id": "b95a21f63ccba27ebff210605bf72b65.jpg",
+    "predicted": 21,
+    "expected": 20
+  },
+  {
+    "image_id": "cc7aef78-dc8b-4116-a0ba-e704667acece___FAM_B.Msls 1801.JPG",
+    "predicted": 21,
+    "expected": 20
+  },
+  {
+    "image_id": "d461a6de81042b90414f1d4dd1efd260.jpg",
+    "predicted": 21,
+    "expected": 20
+  },
+  {
+    "image_id": "f8435b35-e46f-4964-ba06-bb49ffd782e1___FAM_B.Msls 0964.JPG",
+    "predicted": 21,
+    "expected": 20
+  },
+  {
+    "image_id": "0919ab94d82c45bff22b0bc9ccae83ac.jpg",
+    "predicted": 20,
+    "expected": 21
+  },
+  {
+    "image_id": "2de59e7cd94991ecbb29f67862a5d189.jpg",
+    "predicted": 20,
+    "expected": 21
+  },
+  {
+    "image_id": "4432a2820c594bdca1dab068544232bb.jpg",
+    "predicted": 20,
+    "expected": 21
+  },
+  {
+    "image_id": "4821a16516e5d75a9dda963023d25360.jpg",
+    "predicted": 20,
+    "expected": 21
+  },
+  {
+    "image_id": "597cfe27-4ddb-462f-810e-2c66ed1621af___FAM_B.Msls 1307.JPG",
+    "predicted": 20,
+    "expected": 21
+  },
+  {
+    "image_id": "6ad54caa0717bae65ccfff9aff7435a5.jpg",
+    "predicted": 20,
+    "expected": 21
+  },
+  {
+    "image_id": "6cbeaaf39e408055c4f73936be3ca6c8.jpg",
+    "predicted": 20,
+    "expected": 21
+  },
+  {
+    "image_id": "7092c78f3b6ebbb48ad3404a724fecb0.jpg",
+    "predicted": 20,
+    "expected": 21
+  },
+  {
+    "image_id": "739532f1-7775-4d7c-b63e-001e7d9df127___FAM_B.Msls 4297.JPG",
+    "predicted": 20,
+    "expected": 21
+  },
+  {
+    "image_id": "786e0151-30e0-48e3-85bf-ff198b228bc9___FAM_B.Msls 1800.JPG",
+    "predicted": 20,
+    "expected": 21
+  },
+  {
+    "image_id": "8daffa5b4edcea98b2d701ee498d5d51.jpg",
+    "predicted": 20,
+    "expected": 21
+  },
+  {
+    "image_id": "96eadf61-e96b-453e-b31f-49eed46b3b99___FAM_B.Msls 1254.JPG",
+    "predicted": 20,
+    "expected": 21
+  },
+  {
+    "image_id": "a33d8512359e1594206409ee766ebeae.jpg",
+    "predicted": 20,
+    "expected": 21
+  },
+  {
+    "image_id": "ad30ef01-cf78-4852-935b-af9d68417071___FAM_B.Msls 1168.JPG",
+    "predicted": 20,
+    "expected": 21
+  },
+  {
+    "image_id": "c6db6ee7-c4a0-4831-987c-a90a893d4b16___FAM_B.Msls 4114.JPG",
+    "predicted": 20,
+    "expected": 21
+  },
+  {
+    "image_id": "cd1f81ce-181a-4fb2-82e9-5f3dbdb184a1___FAM_B.Msls 1302.JPG",
+    "predicted": 20,
+    "expected": 21
+  },
+  {
+    "image_id": "dd31ea9235c4f96c607d0edfabe79d46.jpg",
+    "predicted": 20,
+    "expected": 21
+  },
+  {
+    "image_id": "ea4041b5-ba1e-4bba-9120-f880f1534cb6___FAM_B.Msls 4008.JPG",
+    "predicted": 20,
+    "expected": 21
+  },
+  {
+    "image_id": "eda4c723-94b7-496a-8b24-107d453f6787___FAM_B.Msls 1059.JPG",
+    "predicted": 20,
+    "expected": 21
+  },
+  {
+    "image_id": "f382d9995d01b34186bd58f3d1ff05c6.jpg",
+    "predicted": 20,
+    "expected": 21
+  },
+  {
+    "image_id": "241e2629-b1fe-473f-ae10-c48a23f59daf___FAM_L.Blight 4827.JPG",
+    "predicted": 23,
+    "expected": 22
+  },
+  {
+    "image_id": "2bab428e-519b-4e4e-95db-45d88765a486___FAM_L.Blight 4907.JPG",
+    "predicted": 23,
+    "expected": 22
+  },
+  {
+    "image_id": "3b233488-833a-4f3f-af84-cebed0a1763f___FAM_L.Blight 1636.JPG",
+    "predicted": 23,
+    "expected": 22
+  },
+  {
+    "image_id": "4f8f850f-225e-4f66-ac47-ecb430bd4b4a___FAM_L.Blight 4672.JPG",
+    "predicted": 23,
+    "expected": 22
+  },
+  {
+    "image_id": "64aa7350-c272-4d31-949c-0730597341be___FAM_L.Blight 1541.JPG",
+    "predicted": 23,
+    "expected": 22
+  },
+  {
+    "image_id": "dc106b61-2b27-4d6c-8172-f3c9ff528d6e___FAM_L.Blight 1532.JPG",
+    "predicted": 23,
+    "expected": 22
+  },
+  {
+    "image_id": "1d013f6bb9a4f0789112947e6fbfa2e2.jpg",
+    "predicted": 22,
+    "expected": 23
+  },
+  {
+    "image_id": "037024f96eb364f03569361c99f27f40.jpg",
+    "predicted": 26,
+    "expected": 25
+  },
+  {
+    "image_id": "085ad39377fa7b92d6200d676b26e4d4.jpg",
+    "predicted": 26,
+    "expected": 25
+  },
+  {
+    "image_id": "0c5f30cd0d9e5c046c96d16d6af11fd7.jpg",
+    "predicted": 26,
+    "expected": 25
+  },
+  {
+    "image_id": "0f3d1946-dcde-4466-9907-46ddf6c11f9e___UF.Citrus_HLB_Lab 1601.JPG",
+    "predicted": 26,
+    "expected": 25
+  },
+  {
+    "image_id": "0f5324c3-fd9b-4f26-a9f9-98513f5c1336___CREC_HLB 7222.JPG",
+    "predicted": 26,
+    "expected": 25
+  },
+  {
+    "image_id": "187890cdd509d1dd72a3d143e7ac2b7d.jpg",
+    "predicted": 26,
+    "expected": 25
+  },
+  {
+    "image_id": "1cd2a853dba65d5b9682c29f6e9ce16b.jpg",
+    "predicted": 26,
+    "expected": 25
+  },
+  {
+    "image_id": "1e1ac03c-2204-4974-9fba-6c44646f67b0___CREC_HLB 6594.JPG",
+    "predicted": 26,
+    "expected": 25
+  },
+  {
+    "image_id": "200d6c7e23b50334ac1a0783f0bff2bb.jpg",
+    "predicted": 26,
+    "expected": 25
+  },
+  {
+    "image_id": "23a5bad7b1b7d2d63964da3c86dc317a.jpg",
+    "predicted": 26,
+    "expected": 25
+  },
+  {
+    "image_id": "31364acc23f309a155a3989c20431b18.jpg",
+    "predicted": 26,
+    "expected": 25
+  },
+  {
+    "image_id": "32c2b18026595ea2b5032afc294c4342.jpg",
+    "predicted": 26,
+    "expected": 25
+  },
+  {
+    "image_id": "342bab5aa5bba49f5bbe96e454ba76de.jpg",
+    "predicted": 26,
+    "expected": 25
+  },
+  {
+    "image_id": "376b6c0b7c92b9ac6142692afa098e3a.jpg",
+    "predicted": 26,
+    "expected": 25
+  },
+  {
+    "image_id": "42ef2bbbef8f70efda4a7f4b1b907c30.jpg",
+    "predicted": 26,
+    "expected": 25
+  },
+  {
+    "image_id": "47fb3aebc78059dc4ab388569cd67124.jpg",
+    "predicted": 26,
+    "expected": 25
+  },
+  {
+    "image_id": "4e2f689be59135231aeb191ccd0829ab.jpg",
+    "predicted": 26,
+    "expected": 25
+  },
+  {
+    "image_id": "4f9e3636-62d5-41e6-8a96-0d562a10bbb5___CREC_HLB 4420.JPG",
+    "predicted": 26,
+    "expected": 25
+  },
+  {
+    "image_id": "50d2ad979d4e8742e86513caafd91ee4.jpg",
+    "predicted": 26,
+    "expected": 25
+  },
+  {
+    "image_id": "55eb76e054ed06b7ee16d6ab95bf63db.jpg",
+    "predicted": 26,
+    "expected": 25
+  },
+  {
+    "image_id": "5c0c135c36255e434ea8fcf4f124ced6.jpg",
+    "predicted": 26,
+    "expected": 25
+  },
+  {
+    "image_id": "5c15b11d-3577-4596-8439-9680070f65cc___CREC_HLB 6758.JPG",
+    "predicted": 26,
+    "expected": 25
+  },
+  {
+    "image_id": "5d8bc662-a4e9-4280-98d4-f0715cb7290c___CREC_HLB 5269.JPG",
+    "predicted": 26,
+    "expected": 25
+  },
+  {
+    "image_id": "613a64b4c4d5889f7f3847b5fcf9b852.jpg",
+    "predicted": 26,
+    "expected": 25
+  },
+  {
+    "image_id": "63d9c436-08f4-4617-9286-f6a5ed70073e___UF.Citrus_HLB_Lab 0095.JPG",
+    "predicted": 26,
+    "expected": 25
+  },
+  {
+    "image_id": "66e97e2a47a4a9173a04c77e9dc20196.jpg",
+    "predicted": 26,
+    "expected": 25
+  },
+  {
+    "image_id": "6f721d34-7a3b-403e-b010-a8cce82fe793___CREC_HLB 7056.JPG",
+    "predicted": 26,
+    "expected": 25
+  },
+  {
+    "image_id": "74acf1fb6113d3f5aa49ebb88cb3a3dd.jpg",
+    "predicted": 26,
+    "expected": 25
+  },
+  {
+    "image_id": "7787e7425ec9aa76e92c3416acd290fb.jpg",
+    "predicted": 26,
+    "expected": 25
+  },
+  {
+    "image_id": "7eddee09-03b2-4758-b219-ee89a505993c___UF.Citrus_HLB_Lab 1659.JPG",
+    "predicted": 26,
+    "expected": 25
+  },
+  {
+    "image_id": "7ff17bb9-66bc-4bbe-b599-63eb4bcc8982___CREC_HLB 5355.JPG",
+    "predicted": 26,
+    "expected": 25
+  },
+  {
+    "image_id": "89ce47e0b805a5998f7c4e0cc5157758.jpg",
+    "predicted": 26,
+    "expected": 25
+  },
+  {
+    "image_id": "9d3d330ef282b45943a822ba052979a3.jpg",
+    "predicted": 26,
+    "expected": 25
+  },
+  {
+    "image_id": "9d7d058fa753b588edd535ed8b201ed2.jpg",
+    "predicted": 26,
+    "expected": 25
+  },
+  {
+    "image_id": "a37fcf09225850bdfbb24e880dbe5988.jpg",
+    "predicted": 26,
+    "expected": 25
+  },
+  {
+    "image_id": "a4c783e75ffad73f8b00cc43ee8534b0.jpg",
+    "predicted": 26,
+    "expected": 25
+  },
+  {
+    "image_id": "a607d74ce8412cf2cc0e98a8d9feb990.jpg",
+    "predicted": 26,
+    "expected": 25
+  },
+  {
+    "image_id": "a7d4474a29ce5d4ea3c41dd58f524c3b.jpg",
+    "predicted": 26,
+    "expected": 25
+  },
+  {
+    "image_id": "aaf190e9771079a95e567d0e3c74fb8a.jpg",
+    "predicted": 26,
+    "expected": 25
+  },
+  {
+    "image_id": "ab24d2e33396d20911fe63a439435e68.jpg",
+    "predicted": 26,
+    "expected": 25
+  },
+  {
+    "image_id": "afb2d1d1c42885b8eb7350c3276cbd25.jpg",
+    "predicted": 26,
+    "expected": 25
+  },
+  {
+    "image_id": "b271a29be764ef31e32cc9e112625406.jpg",
+    "predicted": 26,
+    "expected": 25
+  },
+  {
+    "image_id": "b677c1b034d9986626631e877a9f8204.jpg",
+    "predicted": 26,
+    "expected": 25
+  },
+  {
+    "image_id": "ba9861bed9ff355173950fd393a08f71.jpg",
+    "predicted": 26,
+    "expected": 25
+  },
+  {
+    "image_id": "bdb1aa9510a59b63937f2b04a9c29e9a.jpg",
+    "predicted": 26,
+    "expected": 25
+  },
+  {
+    "image_id": "bfd5731786c6e37b71a61196db36c1dd.jpg",
+    "predicted": 26,
+    "expected": 25
+  },
+  {
+    "image_id": "cd7cec77c7b2d2d75430b7728145eb01.jpg",
+    "predicted": 26,
+    "expected": 25
+  },
+  {
+    "image_id": "d4bf0016bcabc7253bb1599cb4308f01.jpg",
+    "predicted": 26,
+    "expected": 25
+  },
+  {
+    "image_id": "d563f776292c282e388769660384e9da.jpg",
+    "predicted": 26,
+    "expected": 25
+  },
+  {
+    "image_id": "da608f4380813a19df1c2053d1dab45e.jpg",
+    "predicted": 26,
+    "expected": 25
+  },
+  {
+    "image_id": "df5d63fb-d270-459b-9798-ad680374ad1a___UF.Citrus_HLB_Lab 1668.JPG",
+    "predicted": 26,
+    "expected": 25
+  },
+  {
+    "image_id": "e3e5006d-db99-44a9-bea2-96aafc6e2bb4___UF.Citrus_HLB_Lab 1764.JPG",
+    "predicted": 26,
+    "expected": 25
+  },
+  {
+    "image_id": "ea2e516d9d56371f3a2506bbf31c0f06.jpg",
+    "predicted": 26,
+    "expected": 25
+  },
+  {
+    "image_id": "f14af43a09eaea3c9bd6547865443140.jpg",
+    "predicted": 26,
+    "expected": 25
+  },
+  {
+    "image_id": "fccd5d9e3a2a1049ced62966ddf5deda.jpg",
+    "predicted": 26,
+    "expected": 25
+  },
+  {
+    "image_id": "051ca0d43e6d85fa72a2264c926db1bf.jpg",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "0c30da21-a0d4-4363-bd14-e4f92af4571d___UF.Citrus_HLB_Lab 1377.JPG",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "0c834bd1-590d-49bd-b51f-e0ee8c257f99___CREC_HLB 4298.JPG",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "134516331c723d3cc6893da355225adf.jpg",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "1386a41f6387ba6ad6929cf5aa25eb51.jpg",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "16646710545e6ec29f3c0de40360f0e7.jpg",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "18e93850e45c3a153bf372ee15bf9355.jpg",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "190c8d1c6f8817a0fe8f6438da7ff7bc.jpg",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "1a314524f35a639e8bad9f4fb87e667f.jpg",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "1ba183fee0815ccd66f9f97ab614c2b4.jpg",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "1c7df4c7-0a95-43b3-87e1-b5c83dff4784___UF.Citrus_HLB_Lab 1762.JPG",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "1f43822f8ab269d4b7bcafb035c3029a.jpg",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "24e615133aa0d1f68169cb4dbc3b5b61.jpg",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "2756f3558c853944c75b3e8d882cd727.jpg",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "27d5449c-924e-4af8-83c4-9987838616c3___CREC_HLB 5059.JPG",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "299a004e-6b6a-498f-a8f1-3be100478f40___UF.Citrus_HLB_Lab 0184.JPG",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "2b586ece-09e0-457e-afe4-6e7fa1022f59___CREC_HLB 7573.JPG",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "2c1034b2e8a96bd0655ada4bc6aa0f93.jpg",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "2f71bea1-93fa-4e87-80dd-df73a5b9530c___UF.Citrus_HLB_Lab 1758.JPG",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "2f76d3c3-eb2e-4e49-a7f4-0f759bbf0ebf___UF.Citrus_HLB_Lab 1514.JPG",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "30b2c7799e7314ac57b37a21fad5e7dd.jpg",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "30c5eef4-3a53-4ae1-ae2a-052553e03c35___UF.Citrus_HLB_Lab 0202.JPG",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "33d3474b1f86ebb705e98d3569bff8f9.jpg",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "35a665891389b9bd8c2355236ba6bb0e.jpg",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "380ff197447d31801d47840d90172626.jpg",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "40d334224a1941aafe3dbea63d6fb39a.jpg",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "45f4b613426f9058e66547360f341a3c.jpg",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "4666d9c9dfc4c55c4e9259f1e1c33804.jpg",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "48b48445d64d0c08cfd526d1364ac9e5.jpg",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "4a04dee2-37b8-4113-8f60-0b0929c4b812___CREC_HLB 4852.JPG",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "4a64caa9-04ef-476f-b4a1-23998f1920c4___CREC_HLB 6756.JPG",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "4d67726846bc0d28453af6c4f350d911.jpg",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "4f0ca033-f413-42bf-a9be-112b4b65fcf8___CREC_HLB 6570.JPG",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "4fa98d0f-6df6-45ad-87bd-f9cc083d0de6___UF.Citrus_HLB_Lab 1297.JPG",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "53480f76-6cab-42b3-bd9c-5675b60e14c5___UF.Citrus_HLB_Lab 9706.JPG",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "5394bb5f-9059-4d20-bc5d-00e20e789105___UF.Citrus_HLB_Lab 1756.JPG",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "544d1003-003a-4a7a-b901-d305ded755cd___CREC_HLB 6913.JPG",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "54bd61085483d66a4b11d4e4f1f7b2b8.jpg",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "54c6917ddf5a0a19813c77877e613321.jpg",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "593d9c68-5e64-423c-81b9-bca132bf90d0___CREC_HLB 4721.JPG",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "59a4bac8-57a6-4840-a9e6-ac0d13f329c2___UF.Citrus_HLB_Lab 9667.JPG",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "5c7b4c5462c03ee5df4b49a393210a21.jpg",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "5cf6841b-3894-4e89-ae3d-55e7c231944e___CREC_HLB 4553.JPG",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "5e7094fe-a062-42f7-a04f-6235c8c910aa___UF.Citrus_HLB_Lab 9988.JPG",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "5ffa9fd6-45f7-45e4-881b-81359b756d7f___CREC_HLB 4917.JPG",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "63764d8e-bae4-485c-a82b-66bbfea57854___CREC_HLB 6705.JPG",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "663c8c7f0a718cead6867e3ce870c922.jpg",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "688dcf15-881e-49a9-9b2a-5fe012a288ce___UF.Citrus_HLB_Lab 1670.JPG",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "690ada67-b988-4faf-a6e9-ef33020dffe7___UF.Citrus_HLB_Lab 0696.JPG",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "6ccdf7be-9069-452d-ab04-6ee817b74fbb___CREC_HLB 7117.JPG",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "71031c701cdf4820aa2b87c4dc719427.jpg",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "71d8271120cbf412dabd049d8d21ca2c.jpg",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "725ca6ef-6aa3-4365-8fdd-871d3deb95a9___CREC_HLB 5653.JPG",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "7352ec01-fa99-4054-97c3-1eb53940b918___CREC_HLB 7621.JPG",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "746c4360a981fcc37c3ed92d5a0d7031.jpg",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "75a1d358c7ca2eeb45826b99ba6e6eba.jpg",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "76cd4b55d7408ad4559b13516b0fb6ae.jpg",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "80d01fd37f72272c97aca8d2652910a5.jpg",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "83d10aa3d2d55e4308452c1969e67ae3.jpg",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "8753ef4cfa8ecfb3dd7e927e42328a18.jpg",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "89f49badd993f23203fceca26e16b767.jpg",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "9130ac28-172f-4590-ac00-8985d802bdf1___UF.Citrus_HLB_Lab 0695.JPG",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "9255e424-0fb6-45fe-8957-b2bc73c1842d___CREC_HLB 7041.JPG",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "92ac33dd-5a77-4e3b-9ddb-bbb95545bd00___UF.Citrus_HLB_Lab 0385.JPG",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "989cadeb-0e71-4ef6-9bd6-522bee18730f___CREC_HLB 6776.JPG",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "990e263eed0fd201b49067b489b9d0b7.jpg",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "9e76928d7db1578f552a5c1c81517bc7.jpg",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "9f5cad3a37ceeae0113330282185ede7.jpg",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "a2df4920222c4ffa63aced37ce1e7843.jpg",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "a38fa20700aeaa67fa29934bdaca0439.jpg",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "a3c69a490c8489983a84f392aa0d01fe.jpg",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "a94223b0be2cc0c2caa99e553703d7e8.jpg",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "aa8133852b38c3c4628fb1fdc38fd370.jpg",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "abcc553a0e9509ccea7134a6e87a8aa7.jpg",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "ace87a05152f39d76488e58b16e07dc7.jpg",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "ad96b2ea6f60de9075600372b79ea2ec.jpg",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "b0de828132e10fa38d902e4715e055b9.jpg",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "b2530c5da371e9ea7c5e0d2d93ffc0d9.jpg",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "b5954aaa5e8e4fa06b1c0ee69f64a685.jpg",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "b6b7c413-e1a7-4cb7-a5b9-8e5e7a425ea3___CREC_HLB 5686.JPG",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "b6bfdcb1a6f46670d6ab2b5bc80b9f87.jpg",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "b7f7de86-8da7-4ed8-b61b-b40c5bc50de6___CREC_HLB 7510.JPG",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "b866ff47d6ccd0858835b16b2dd886fc.jpg",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "b8ede3f1-6c98-4c84-9a8f-3854ab4d6dca___CREC_HLB 7005.JPG",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "ba4b37ec-1728-4312-a00d-5cfba03b18cd___UF.Citrus_HLB_Lab 0379.JPG",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "bab6d8337b89e58eec6a1ccb472ed7af.jpg",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "bd5e6905-3a40-44b2-a759-d2ae9d6e0826___UF.Citrus_HLB_Lab 0577.JPG",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "c0dee2911d77f2857e4b5aa5fe0f83c1.jpg",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "d20951de5959eebb8c6bf9d6660c7a75.jpg",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "d24420fa-af1a-4cf7-be98-2e98f11e64e8___CREC_HLB 3976.JPG",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "d379829fd64ecd1f22ad4d0aa962768d.jpg",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "d602dcbb81e0812655ede9f11800743b.jpg",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "d86796cf-aae9-471a-afea-a850091a1cf9___UF.Citrus_HLB_Lab 1375.JPG",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "d98f64e3e2c4823e1631ab54e5d0bd8b.jpg",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "dc29ff5436e5442f28a0d8d67bb84014.jpg",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "ddbbd76c-0065-4f25-8b4c-0ce1100efd2a___CREC_HLB 4520.JPG",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "deacf68a-5de3-49b7-8ec4-836d61d77e3c___CREC_HLB 4669.JPG",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "e2879aa5-ecf8-4f36-963e-a51ce69c19d6___UF.Citrus_HLB_Lab 0754.JPG",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "e661c43f7bcd20ff8b39820b72b917f5.jpg",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "e6d7a72e-d582-4e2c-9dd4-84b27b447790___UF.Citrus_HLB_Lab 0086.JPG",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "ee931e94b967cadfa145bea4b5f2c0fd.jpg",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "f054f9d8e4920116b2cefd5c77d0dbcb.jpg",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "f538eae64c334b8b6468f94e025a9722.jpg",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "f9958d969d2c60f24912262d32fac15e.jpg",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "fa676515-8de9-477a-8e2d-48189157b691___UF.Citrus_HLB_Lab 0907.JPG",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "fc30f26d9bb7e851257600d4dee69277.jpg",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "fc347d8ebd6502033338dd557e1adf68.jpg",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "fc8bdfe70e8328c1ffbcc3a2a9e7f624.jpg",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "ffc3dbee88d24c140f6873a4be14ef63.jpg",
+    "predicted": 25,
+    "expected": 26
+  },
+  {
+    "image_id": "04a75c2e7fb97bf148e199cdedc6acde.jpg",
+    "predicted": 30,
+    "expected": 27
+  },
+  {
+    "image_id": "485517780467f6c922b579820ec4e268.jpg",
+    "predicted": 28,
+    "expected": 27
+  },
+  {
+    "image_id": "f493f3d69e83f3152639249c423594d3.jpg",
+    "predicted": 33,
+    "expected": 27
+  },
+  {
+    "image_id": "150f6b5f8c6616d9013182005f01bb9f.jpg",
+    "predicted": 29,
+    "expected": 28
+  },
+  {
+    "image_id": "30570f1adcc1251aec8f75021792115d.jpg",
+    "predicted": 29,
+    "expected": 28
+  },
+  {
+    "image_id": "5709de12096e9dbf59dc1b9c9bdc1292.jpg",
+    "predicted": 29,
+    "expected": 28
+  },
+  {
+    "image_id": "5955da744c4f71b58192438ff0137980.jpg",
+    "predicted": 4,
+    "expected": 28
+  },
+  {
+    "image_id": "6cdb5c780ca7d1ea1e9c926a04b74cd9.jpg",
+    "predicted": 29,
+    "expected": 28
+  },
+  {
+    "image_id": "8e8de8a699a6b918794dfb23db75d219.jpg",
+    "predicted": 27,
+    "expected": 28
+  },
+  {
+    "image_id": "91009e67d979de0b939e025c1494790e.jpg",
+    "predicted": 29,
+    "expected": 28
+  },
+  {
+    "image_id": "a231327d97dbbfe9719b1689cf97e73d.jpg",
+    "predicted": 29,
+    "expected": 28
+  },
+  {
+    "image_id": "a3af15aa7100e283f642b58fe6ebc144.jpg",
+    "predicted": 29,
+    "expected": 28
+  },
+  {
+    "image_id": "aed2918fac74230ca8519ef74ae342bf.jpg",
+    "predicted": 29,
+    "expected": 28
+  },
+  {
+    "image_id": "b7524e3eeea92b5945344168c8e4feb5.jpg",
+    "predicted": 29,
+    "expected": 28
+  },
+  {
+    "image_id": "b8f4eb48c84bf6d24825f594f57b806f.jpg",
+    "predicted": 27,
+    "expected": 28
+  },
+  {
+    "image_id": "bd50d9fa2da751b37ffa782409929010.jpg",
+    "predicted": 29,
+    "expected": 28
+  },
+  {
+    "image_id": "c18b8e68d720bf20141c02d450935181.jpg",
+    "predicted": 29,
+    "expected": 28
+  },
+  {
+    "image_id": "cfead799-04a3-4bb7-917f-7b186c595d68___Rutg._Bact.S 1999.JPG",
+    "predicted": 29,
+    "expected": 28
+  },
+  {
+    "image_id": "f52afb91f6e9b6e67d8992edeea1b6a2.jpg",
+    "predicted": 29,
+    "expected": 28
+  },
+  {
+    "image_id": "f6480c1d94949eb9f7c9a34ca4a14009.jpg",
+    "predicted": 29,
+    "expected": 28
+  },
+  {
+    "image_id": "f919b47940db463900bc32a33a47f33f.jpg",
+    "predicted": 29,
+    "expected": 28
+  },
+  {
+    "image_id": "fbf35f44d3b9a06e02de4885852f2682.jpg",
+    "predicted": 29,
+    "expected": 28
+  },
+  {
+    "image_id": "16a20859d010428ff18f400e78f01bf6.jpg",
+    "predicted": 32,
+    "expected": 29
+  },
+  {
+    "image_id": "34b1e5106c45249d128a2c3937e79ebc.jpg",
+    "predicted": 28,
+    "expected": 29
+  },
+  {
+    "image_id": "39fbe87d9fde759cfcff2bb3f23c4ef2.jpg",
+    "predicted": 15,
+    "expected": 29
+  },
+  {
+    "image_id": "74459db7e8ebad8007199dc3b9d03ab4.jpg",
+    "predicted": 32,
+    "expected": 29
+  },
+  {
+    "image_id": "83e313342e1b18965731a45c77705adf.jpg",
+    "predicted": 28,
+    "expected": 29
+  },
+  {
+    "image_id": "a764a11fb43caebba827121a63cf9b8b.jpg",
+    "predicted": 28,
+    "expected": 29
+  },
+  {
+    "image_id": "a86e58f88759671fa2f070a5d2ed5fda.jpg",
+    "predicted": 28,
+    "expected": 29
+  },
+  {
+    "image_id": "c425b326c13e963e64ba2cabf888b42a.jpg",
+    "predicted": 28,
+    "expected": 29
+  },
+  {
+    "image_id": "a026872c848001eeca11347332ca9e3e.jpg",
+    "predicted": 32,
+    "expected": 31
+  },
+  {
+    "image_id": "a326fc1a-66ff-4ca1-b19c-2ce6cb760cd9___JR_B.Spot 9011.JPG",
+    "predicted": 32,
+    "expected": 31
+  },
+  {
+    "image_id": "d2cb69d20a9095de2a18d5b43e68af83.jpg",
+    "predicted": 32,
+    "expected": 31
+  },
+  {
+    "image_id": "045a7630777d56679cf6c722bcfd34f3.jpg",
+    "predicted": 31,
+    "expected": 32
+  },
+  {
+    "image_id": "0dcbf24eb637d1ceafbdb481021e8716.jpg",
+    "predicted": 30,
+    "expected": 32
+  },
+  {
+    "image_id": "3df25df9-50f7-4430-8853-0ab2d3ca2579___JR_B.Spot 9083.JPG",
+    "predicted": 31,
+    "expected": 32
+  },
+  {
+    "image_id": "4531d2be9a686eb48323967176a20b22.jpg",
+    "predicted": 31,
+    "expected": 32
+  },
+  {
+    "image_id": "506c5715244d0b87d270d4ae07f93832.jpg",
+    "predicted": 31,
+    "expected": 32
+  },
+  {
+    "image_id": "6c27be7cd54e9524708b3ade59db9120.jpg",
+    "predicted": 31,
+    "expected": 32
+  },
+  {
+    "image_id": "72cc289000ac9a0b9d116fb429db0ffa.jpg",
+    "predicted": 31,
+    "expected": 32
+  },
+  {
+    "image_id": "75a64b98-63dd-4ef1-907f-09bdeb3a89dc___JR_B.Spot 3228.JPG",
+    "predicted": 29,
+    "expected": 32
+  },
+  {
+    "image_id": "84b3e1f1f76d04bb606129d63f05a7c3.jpg",
+    "predicted": 31,
+    "expected": 32
+  },
+  {
+    "image_id": "b6843d4e-85a6-4e1f-97a9-e892720406fe___JR_B.Spot 8974.JPG",
+    "predicted": 31,
+    "expected": 32
+  },
+  {
+    "image_id": "d88a9774fd279ed02acaef47d830553e.jpg",
+    "predicted": 31,
+    "expected": 32
+  },
+  {
+    "image_id": "124566fafccdf0b40eb69c59bcf9c501.jpg",
+    "predicted": 36,
+    "expected": 34
+  },
+  {
+    "image_id": "98be3d087055036d8c743a676cf6d561.jpg",
+    "predicted": 36,
+    "expected": 34
+  },
+  {
+    "image_id": "28d6202bbc9f92137a925380aba051c5.jpg",
+    "predicted": 34,
+    "expected": 35
+  },
+  {
+    "image_id": "6768be3308c377ccd20256112d296b6c.jpg",
+    "predicted": 34,
+    "expected": 35
+  },
+  {
+    "image_id": "85bbeb936127324e3de9cffcff3f3ee3.jpg",
+    "predicted": 34,
+    "expected": 35
+  },
+  {
+    "image_id": "97747fed70f2f4e7aefd8e62aba9b492.jpg",
+    "predicted": 34,
+    "expected": 35
+  },
+  {
+    "image_id": "9badd590-45ed-4636-9590-b12342ea8a84___RS_Early.B 6944.JPG",
+    "predicted": 34,
+    "expected": 35
+  },
+  {
+    "image_id": "a16889cae291935716b484ed4df51dde.jpg",
+    "predicted": 34,
+    "expected": 35
+  },
+  {
+    "image_id": "b30b1b2ef6886d8612c48ec54ad45908.jpg",
+    "predicted": 47,
+    "expected": 35
+  },
+  {
+    "image_id": "d506f27651d6b1ae4fec43183950dc2d.jpg",
+    "predicted": 34,
+    "expected": 35
+  },
+  {
+    "image_id": "d99d926c5532f440f0301b01d930f55c.jpg",
+    "predicted": 34,
+    "expected": 35
+  },
+  {
+    "image_id": "e250d8157695486a23e5304d568ee160.jpg",
+    "predicted": 55,
+    "expected": 35
+  },
+  {
+    "image_id": "4509db203a8797df67e2029f56bc873d.jpg",
+    "predicted": 37,
+    "expected": 36
+  },
+  {
+    "image_id": "716325d9-fca6-46b4-8f5a-f6729c211200___RS_LB 3958.JPG",
+    "predicted": 37,
+    "expected": 36
+  },
+  {
+    "image_id": "e3db75c8a2fe20a794c76dc5af8cf76d.jpg",
+    "predicted": 33,
+    "expected": 36
+  },
+  {
+    "image_id": "0eb24a67-a174-43db-86c7-cca8795942a2___RS_LB 4722.JPG",
+    "predicted": 49,
+    "expected": 37
+  },
+  {
+    "image_id": "127521ec-3cc5-4f98-ac73-ad561ec29e73___RS_LB 3219.JPG",
+    "predicted": 49,
+    "expected": 37
+  },
+  {
+    "image_id": "1c755f771d741cde93ec467321742a23.jpg",
+    "predicted": 49,
+    "expected": 37
+  },
+  {
+    "image_id": "29a30aec-e060-43f2-bd81-27d8ad1cebf2___RS_LB 4911.JPG",
+    "predicted": 36,
+    "expected": 37
+  },
+  {
+    "image_id": "2b2aa47494e31fbc13b86bc5e01653c2.jpg",
+    "predicted": 49,
+    "expected": 37
+  },
+  {
+    "image_id": "6255fe3ed2bfb69ce585e9ee5d83c53d.jpg",
+    "predicted": 36,
+    "expected": 37
+  },
+  {
+    "image_id": "8f21b68f54a6e22cd6e765de7b600cc3.jpg",
+    "predicted": 36,
+    "expected": 37
+  },
+  {
+    "image_id": "ac2ea1ea5418f9ef0600a8d216eddabe.jpg",
+    "predicted": 36,
+    "expected": 37
+  },
+  {
+    "image_id": "ae5b12129b7107b92a2e877ab745b20d.jpg",
+    "predicted": 49,
+    "expected": 37
+  },
+  {
+    "image_id": "c984fec2a4074a909c6949b50dd0a3fd.jpg",
+    "predicted": 36,
+    "expected": 37
+  },
+  {
+    "image_id": "df58c6e4a5ba9bc29c44077a86cb1a87.jpg",
+    "predicted": 36,
+    "expected": 37
+  },
+  {
+    "image_id": "f9731af77bd70464f79effa564dadf35.jpg",
+    "predicted": 36,
+    "expected": 37
+  },
+  {
+    "image_id": "09b06335-77d4-465f-936e-7de45a4c2ae1___RS_L.Scorch 0841.JPG",
+    "predicted": 40,
+    "expected": 39
+  },
+  {
+    "image_id": "230b106247f48d67d8c6da1e312b8483.jpg",
+    "predicted": 40,
+    "expected": 39
+  },
+  {
+    "image_id": "91795b04-c65c-4a0e-99d0-793b797ed3c4___RS_L.Scorch 9971.JPG",
+    "predicted": 40,
+    "expected": 39
+  },
+  {
+    "image_id": "968c98c8-d748-4b1c-ab29-fc68f250da46___RS_L.Scorch 0024.JPG",
+    "predicted": 40,
+    "expected": 39
+  },
+  {
+    "image_id": "ca0ba54f-4cb3-4565-bc9b-70e5ef4eda37___RS_L.Scorch 9943.JPG",
+    "predicted": 40,
+    "expected": 39
+  },
+  {
+    "image_id": "e07fbb6dfc325980dd5f6c3c81b57456.jpg",
+    "predicted": 40,
+    "expected": 39
+  },
+  {
+    "image_id": "03f16439df37850e4a4148f988a1c6ef.jpg",
+    "predicted": 39,
+    "expected": 40
+  },
+  {
+    "image_id": "a21043cf591f503887c8eb855fd7ae6f.jpg",
+    "predicted": 39,
+    "expected": 40
+  },
+  {
+    "image_id": "cdd89be436f64a8aa975c931ff4b6dc4.jpg",
+    "predicted": 3,
+    "expected": 40
+  },
+  {
+    "image_id": "0b082a5e3c1203328f1a4962cdcb7153.jpg",
+    "predicted": 54,
+    "expected": 41
+  },
+  {
+    "image_id": "b0bd479700e4ed259a2587773fb76e51.jpg",
+    "predicted": 54,
+    "expected": 41
+  },
+  {
+    "image_id": "u=2520622969,1450176384&fm=200&gp=0.jpg",
+    "predicted": 21,
+    "expected": 41
+  },
+  {
+    "image_id": "0d151ba72ff4bc5417dd6776550ef0d3.jpg",
+    "predicted": 43,
+    "expected": 42
+  },
+  {
+    "image_id": "1d6fc47853a136aae2f38712029bd131.jpg",
+    "predicted": 43,
+    "expected": 42
+  },
+  {
+    "image_id": "3328fe65504c42463470f132d1e167cc.jpg",
+    "predicted": 43,
+    "expected": 42
+  },
+  {
+    "image_id": "38e79603d5a24c9eaa972d32496900db.jpg",
+    "predicted": 43,
+    "expected": 42
+  },
+  {
+    "image_id": "4c49ea9d0dbaa48adcab9e7da851cf01.jpg",
+    "predicted": 43,
+    "expected": 42
+  },
+  {
+    "image_id": "4c6883f0a749b82881699376c2fa5fc7.jpg",
+    "predicted": 43,
+    "expected": 42
+  },
+  {
+    "image_id": "550ed894d5b9f18dfc5f76f6843203ba.jpg",
+    "predicted": 43,
+    "expected": 42
+  },
+  {
+    "image_id": "68ac41ed2f28d48b6adf051e44128157.jpg",
+    "predicted": 43,
+    "expected": 42
+  },
+  {
+    "image_id": "7bd07f9c95ab59eb2652a4aa6190a05d.jpg",
+    "predicted": 43,
+    "expected": 42
+  },
+  {
+    "image_id": "96073bfc4e285badc249e0572a6bd2b9.jpg",
+    "predicted": 43,
+    "expected": 42
+  },
+  {
+    "image_id": "9973f3f2b457f0fababe5033ec370675.jpg",
+    "predicted": 43,
+    "expected": 42
+  },
+  {
+    "image_id": "b9b11787f54954ad7ce176a11b73add8.jpg",
+    "predicted": 43,
+    "expected": 42
+  },
+  {
+    "image_id": "c20f6a5823e561a3c98ecf2df7fcac1c.jpg",
+    "predicted": 43,
+    "expected": 42
+  },
+  {
+    "image_id": "c8cbafdd5ea1bdf839588ccc2695fbf9.jpg",
+    "predicted": 43,
+    "expected": 42
+  },
+  {
+    "image_id": "d18e959e-8cbe-4813-a4c4-1a13f49fdd41___MD_Powd.M 0662.JPG",
+    "predicted": 43,
+    "expected": 42
+  },
+  {
+    "image_id": "e08c538f8bdf6216c1b4071c9fc03a5f.jpg",
+    "predicted": 43,
+    "expected": 42
+  },
+  {
+    "image_id": "fb8067b9e974f98a5a79b60f5b33f401.jpg",
+    "predicted": 43,
+    "expected": 42
+  },
+  {
+    "image_id": "0b907a4e-2d99-4775-ae65-4c8c5c53ba9a___UMD_Powd.M 0074.JPG",
+    "predicted": 42,
+    "expected": 43
+  },
+  {
+    "image_id": "0ee7cf91-f59f-40e1-89e8-a7bc4f0dab7f___UMD_Powd.M 9869.JPG",
+    "predicted": 42,
+    "expected": 43
+  },
+  {
+    "image_id": "1a269cc8-eb0d-468d-9d09-5e69ed88fb8b___UMD_Powd.M 0045.JPG",
+    "predicted": 42,
+    "expected": 43
+  },
+  {
+    "image_id": "1f53bac68235a56d12b6ac6844049b6f.jpg",
+    "predicted": 42,
+    "expected": 43
+  },
+  {
+    "image_id": "29c98df0-50a1-4da4-84c9-c4c5b2d155dd___UMD_Powd.M 9868.JPG",
+    "predicted": 42,
+    "expected": 43
+  },
+  {
+    "image_id": "3bfd838f-8a5a-4320-91c5-1d2c6d2ede71___MD_Powd.M 9924.JPG",
+    "predicted": 42,
+    "expected": 43
+  },
+  {
+    "image_id": "3c286622-d96d-4de6-8bf7-8c27fb277613___MD_Powd.M 0133 copy.jpg",
+    "predicted": 42,
+    "expected": 43
+  },
+  {
+    "image_id": "7d75beb1-8673-4faa-9c60-d6b0275cc1e3___UMD_Powd.M 0124.JPG",
+    "predicted": 42,
+    "expected": 43
+  },
+  {
+    "image_id": "9e252d22-0cef-4190-8b16-914b2905a51b___MD_Powd.M 9964.JPG",
+    "predicted": 42,
+    "expected": 43
+  },
+  {
+    "image_id": "af4dd1a1-9d13-4e59-93a5-82637330bc1d___MD_Powd.M 0149 copy.jpg",
+    "predicted": 42,
+    "expected": 43
+  },
+  {
+    "image_id": "da8c787a-4f65-4ec1-b82e-c4b4c541835d___UMD_Powd.M 0096.JPG",
+    "predicted": 42,
+    "expected": 43
+  },
+  {
+    "image_id": "e6eb4d5b2557554d572d8c502105edee.jpg",
+    "predicted": 42,
+    "expected": 43
+  },
+  {
+    "image_id": "00720768984d139ef8203531dae1553f.jpg",
+    "predicted": 52,
+    "expected": 44
+  },
+  {
+    "image_id": "034d99161d6ac4a747f0188ef250fde0.jpg",
+    "predicted": 52,
+    "expected": 44
+  },
+  {
+    "image_id": "07282bf5cd054804d7167a1235299e0e.jpg",
+    "predicted": 52,
+    "expected": 44
+  },
+  {
+    "image_id": "0ab54691-ba9f-4c1f-a69b-ec0501df4401___GCREC_Bact.Sp 3170.JPG",
+    "predicted": 52,
+    "expected": 44
+  },
+  {
+    "image_id": "0abe2fe924b472e15137e39fd636ebd0.jpg",
+    "predicted": 52,
+    "expected": 44
+  },
+  {
+    "image_id": "0c589548ef3008423f4ccdf42a8aa300.jpg",
+    "predicted": 53,
+    "expected": 44
+  },
+  {
+    "image_id": "14b9bfd79c5b776713253c2708b9c86e.jpg",
+    "predicted": 52,
+    "expected": 44
+  },
+  {
+    "image_id": "1528f62a9ff9fe67f707a097c2a312e1.jpg",
+    "predicted": 52,
+    "expected": 44
+  },
+  {
+    "image_id": "166a69a7-cae0-4e6e-ac75-bc207a5335f4___GCREC_Bact.Sp 5705.JPG",
+    "predicted": 52,
+    "expected": 44
+  },
+  {
+    "image_id": "16ad81485b2ddc87c19db908befefa2c.jpg",
+    "predicted": 52,
+    "expected": 44
+  },
+  {
+    "image_id": "1b3ccbf3-c1e1-476e-b34a-6af0a6fbb349___GCREC_Bact.Sp 3735.JPG",
+    "predicted": 52,
+    "expected": 44
+  },
+  {
+    "image_id": "1b473d2f4a349aa99ee343be01c59ec3.jpg",
+    "predicted": 52,
+    "expected": 44
+  },
+  {
+    "image_id": "1c213d89-a3ba-4486-ac5a-1744eb371859___GCREC_Bact.Sp 3500.JPG",
+    "predicted": 52,
+    "expected": 44
+  },
+  {
+    "image_id": "2290365c-ec97-46fb-bc6c-51395d458821___GCREC_Bact.Sp 5937.JPG",
+    "predicted": 52,
+    "expected": 44
+  },
+  {
+    "image_id": "2a2d11a9-e334-491f-8d43-66320cd26010___GCREC_Bact.Sp 6124.JPG",
+    "predicted": 52,
+    "expected": 44
+  },
+  {
+    "image_id": "2a3f8506c6c686cd7069ce956a12643a.jpg",
+    "predicted": 52,
+    "expected": 44
+  },
+  {
+    "image_id": "2e2a791ffc1bcd4020e2c423a48f2c0e.jpg",
+    "predicted": 52,
+    "expected": 44
+  },
+  {
+    "image_id": "37b32099-fdba-4c48-8bef-1904cd580737___GCREC_Bact.Sp 5897.JPG",
+    "predicted": 52,
+    "expected": 44
+  },
+  {
+    "image_id": "39d2634e-789c-4fdb-bbe7-1c03e04d91b8___GCREC_Bact.Sp 5763.JPG",
+    "predicted": 52,
+    "expected": 44
+  },
+  {
+    "image_id": "3ad3361bd97c12dc5cb9d3138cbba94f.jpg",
+    "predicted": 52,
+    "expected": 44
+  },
+  {
+    "image_id": "3b2880416f58ba60e0b27ea83a0915eb.jpg",
+    "predicted": 52,
+    "expected": 44
+  },
+  {
+    "image_id": "3c108d536c40d5c11f84b6be278b7056.jpg",
+    "predicted": 52,
+    "expected": 44
+  },
+  {
+    "image_id": "3cda76514d9635761f2c5c06f01a2222.jpg",
+    "predicted": 52,
+    "expected": 44
+  },
+  {
+    "image_id": "42ad58f5ce67092f0e332b34b72b0411.jpg",
+    "predicted": 46,
+    "expected": 44
+  },
+  {
+    "image_id": "4436edf6-8c6d-4cc5-b973-1f0afd218e86___GCREC_Bact.Sp 6271.JPG",
+    "predicted": 53,
+    "expected": 44
+  },
+  {
+    "image_id": "4a9f5813f8a96b5ac5bf216698416a16.jpg",
+    "predicted": 52,
+    "expected": 44
+  },
+  {
+    "image_id": "52e4ee505c8cc9e7632d4239e703bf2a.jpg",
+    "predicted": 52,
+    "expected": 44
+  },
+  {
+    "image_id": "537d7a32b798e1d83a4288332bd302ba.jpg",
+    "predicted": 52,
+    "expected": 44
+  },
+  {
+    "image_id": "542e3014-3c3c-40c2-bf7e-73287f5302e4___GCREC_Bact.Sp 3157.JPG",
+    "predicted": 52,
+    "expected": 44
+  },
+  {
+    "image_id": "5923581b-ce89-4844-bd6a-8e4826b8b059___GCREC_Bact.Sp 3234.JPG",
+    "predicted": 52,
+    "expected": 44
+  },
+  {
+    "image_id": "5956ff4da6913789b1158538554cbbe7.jpg",
+    "predicted": 52,
+    "expected": 44
+  },
+  {
+    "image_id": "5c973c59-c8da-4a3a-bd99-a645d0f83936___GCREC_Bact.Sp 6362.JPG",
+    "predicted": 52,
+    "expected": 44
+  },
+  {
+    "image_id": "5dd5671a93873c36856875af10e7f64c.jpg",
+    "predicted": 52,
+    "expected": 44
+  },
+  {
+    "image_id": "67db77fe08eef608e48f1a4ed3ad82d2.jpg",
+    "predicted": 52,
+    "expected": 44
+  },
+  {
+    "image_id": "68f61e1eeda6c225a76fa3900302fc84.jpg",
+    "predicted": 52,
+    "expected": 44
+  },
+  {
+    "image_id": "6a7ed25b-d34f-4f33-84ab-56efcd5eed15___GCREC_Bact.Sp 3830.JPG",
+    "predicted": 52,
+    "expected": 44
+  },
+  {
+    "image_id": "86dc2636f2d9322fe4e07094a52a43bb.jpg",
+    "predicted": 52,
+    "expected": 44
+  },
+  {
+    "image_id": "9f208f514a4be8e5074e1c5b200fb9cf.jpg",
+    "predicted": 52,
+    "expected": 44
+  },
+  {
+    "image_id": "a23df4eedf01dfa7465a3c69c35cf170.jpg",
+    "predicted": 52,
+    "expected": 44
+  },
+  {
+    "image_id": "a469ae7c-95bb-4633-89a6-bb9da9dcb99d___GCREC_Bact.Sp 5635.JPG",
+    "predicted": 52,
+    "expected": 44
+  },
+  {
+    "image_id": "a7afc4b99542f1bfdde71296780344c0.jpg",
+    "predicted": 52,
+    "expected": 44
+  },
+  {
+    "image_id": "a8a3dd0c-7729-46bb-87f9-23c2345e955a___GCREC_Bact.Sp 5703.JPG",
+    "predicted": 52,
+    "expected": 44
+  },
+  {
+    "image_id": "aabc0838-428f-46d6-b869-fabfc687cb16___GCREC_Bact.Sp 5630.JPG",
+    "predicted": 52,
+    "expected": 44
+  },
+  {
+    "image_id": "ab4114fb-2312-41ba-a60d-bd262c97889f___GCREC_Bact.Sp 6258.JPG",
+    "predicted": 52,
+    "expected": 44
+  },
+  {
+    "image_id": "ace1df04231ed7f057ecdd6326d9ca6f.jpg",
+    "predicted": 45,
+    "expected": 44
+  },
+  {
+    "image_id": "b66ad55a-0bf2-4819-90f2-10d4206122e6___GCREC_Bact.Sp 3771.JPG",
+    "predicted": 52,
+    "expected": 44
+  },
+  {
+    "image_id": "b6f247db-9a19-429c-b665-36a0407b230c___GCREC_Bact.Sp 6373.JPG",
+    "predicted": 52,
+    "expected": 44
+  },
+  {
+    "image_id": "b8e606e2-0630-453f-8688-b4350feb2bce___GCREC_Bact.Sp 3033.JPG",
+    "predicted": 52,
+    "expected": 44
+  },
+  {
+    "image_id": "bd2b9e5f0203f70aac3a6a2d2c7cbbe8.jpg",
+    "predicted": 52,
+    "expected": 44
+  },
+  {
+    "image_id": "bfd017bf9d8ca89bc2115c45e352c326.jpg",
+    "predicted": 52,
+    "expected": 44
+  },
+  {
+    "image_id": "c0e3fc41-4d61-4a2d-a1e0-f5d658803182___GCREC_Bact.Sp 5975.JPG",
+    "predicted": 52,
+    "expected": 44
+  },
+  {
+    "image_id": "c2da554897196e2a7b3f7610d2292a1f.jpg",
+    "predicted": 52,
+    "expected": 44
+  },
+  {
+    "image_id": "c5d53dcaa0783999b0a320eea8152179.jpg",
+    "predicted": 52,
+    "expected": 44
+  },
+  {
+    "image_id": "c992736816d42c70716352c4f5c5227e.jpg",
+    "predicted": 45,
+    "expected": 44
+  },
+  {
+    "image_id": "ca342914486845ad95c22cdb60c61f92.jpg",
+    "predicted": 52,
+    "expected": 44
+  },
+  {
+    "image_id": "ccb227418e6743d68675e0a8ea81f3ef.jpg",
+    "predicted": 52,
+    "expected": 44
+  },
+  {
+    "image_id": "d0ce6851-bf97-4410-94f3-ccdcddd2a0fe___GCREC_Bact.Sp 3424.JPG",
+    "predicted": 52,
+    "expected": 44
+  },
+  {
+    "image_id": "d4249b193ab412ab1badb666825df499.jpg",
+    "predicted": 52,
+    "expected": 44
+  },
+  {
+    "image_id": "d4611a5100de96d3474a2f683cb89aa0.jpg",
+    "predicted": 52,
+    "expected": 44
+  },
+  {
+    "image_id": "d845af89f5c0474a3a7be2e550a65e6c.jpg",
+    "predicted": 45,
+    "expected": 44
+  },
+  {
+    "image_id": "db96613d2254c8f2ee98f83b3b04cfa9.jpg",
+    "predicted": 52,
+    "expected": 44
+  },
+  {
+    "image_id": "e59a54d3-77fa-4547-8ba6-cc5ee7b0591a___GCREC_Bact.Sp 3827.JPG",
+    "predicted": 52,
+    "expected": 44
+  },
+  {
+    "image_id": "e797fd83-e984-4df6-a3a2-c19a95d19576___GCREC_Bact.Sp 3425.JPG",
+    "predicted": 52,
+    "expected": 44
+  },
+  {
+    "image_id": "e7c5c7fcda6dd40c1e8c7e49f6780a2d.jpg",
+    "predicted": 52,
+    "expected": 44
+  },
+  {
+    "image_id": "f3f05df37e8488d870845a2850cde4bc.jpg",
+    "predicted": 52,
+    "expected": 44
+  },
+  {
+    "image_id": "07f5c629-92da-49ad-b132-6268199882f8___GCREC_Bact.Sp 3362.JPG",
+    "predicted": 53,
+    "expected": 45
+  },
+  {
+    "image_id": "09442ca2-e279-4937-8ba0-faa85901f199___GCREC_Bact.Sp 5643.JPG",
+    "predicted": 53,
+    "expected": 45
+  },
+  {
+    "image_id": "0ac8c80f-6d67-46ee-b662-8265d9df9183___GCREC_Bact.Sp 6115.JPG",
+    "predicted": 53,
+    "expected": 45
+  },
+  {
+    "image_id": "136d4a412c66109c8cd73ba162ec6d55.jpg",
+    "predicted": 53,
+    "expected": 45
+  },
+  {
+    "image_id": "14f9fe9d-517e-4f70-9a4b-97fff9a26e65___GCREC_Bact.Sp 6295.JPG",
+    "predicted": 53,
+    "expected": 45
+  },
+  {
+    "image_id": "16025d04fe1d4a7087a4adb58a855370.jpg",
+    "predicted": 52,
+    "expected": 45
+  },
+  {
+    "image_id": "162156e8-724a-48d9-8a19-904937f9dc03___GCREC_Bact.Sp 3472.JPG",
+    "predicted": 53,
+    "expected": 45
+  },
+  {
+    "image_id": "16467af5-6cd6-47c8-b3bc-405dc68a462d___GCREC_Bact.Sp 3258.JPG",
+    "predicted": 44,
+    "expected": 45
+  },
+  {
+    "image_id": "1695eefb-cffc-4dac-b7ae-40f34ad9c5db___GCREC_Bact.Sp 3065.JPG",
+    "predicted": 53,
+    "expected": 45
+  },
+  {
+    "image_id": "1d2bcd85-fdb7-4294-ba11-eb58373b4474___GCREC_Bact.Sp 3092.JPG",
+    "predicted": 52,
+    "expected": 45
+  },
+  {
+    "image_id": "238704619cc17f4215c7b2efd8b9a025.jpg",
+    "predicted": 53,
+    "expected": 45
+  },
+  {
+    "image_id": "257f5c1ede24a5b2d556401a0136b997.jpg",
+    "predicted": 52,
+    "expected": 45
+  },
+  {
+    "image_id": "29a61150-5453-4a76-88eb-2e97a8f4c400___GCREC_Bact.Sp 6345.JPG",
+    "predicted": 53,
+    "expected": 45
+  },
+  {
+    "image_id": "2a7b80f9-bd15-42cf-aab5-699232ee1506___GCREC_Bact.Sp 6317.JPG",
+    "predicted": 52,
+    "expected": 45
+  },
+  {
+    "image_id": "2b0aeb22141909e44ef35328a46f5c72.jpg",
+    "predicted": 53,
+    "expected": 45
+  },
+  {
+    "image_id": "2c903f07dddadf962ac62404a8ce2876.jpg",
+    "predicted": 53,
+    "expected": 45
+  },
+  {
+    "image_id": "350e646b-1a06-440c-92c1-58dd4f287743___GCREC_Bact.Sp 5877.JPG",
+    "predicted": 44,
+    "expected": 45
+  },
+  {
+    "image_id": "360bc54aa8b33c3940ec26aa148e35be.jpg",
+    "predicted": 53,
+    "expected": 45
+  },
+  {
+    "image_id": "3c4ef113451027dd338e7766ac20cb33.jpg",
+    "predicted": 53,
+    "expected": 45
+  },
+  {
+    "image_id": "42da8d77b9574e52abc42781cd634a8a.jpg",
+    "predicted": 53,
+    "expected": 45
+  },
+  {
+    "image_id": "43569aaa0b0a58ca0d684070555a94f3.jpg",
+    "predicted": 53,
+    "expected": 45
+  },
+  {
+    "image_id": "450c2f14-597d-45b9-9796-c80e4fbdb114___GCREC_Bact.Sp 6117.JPG",
+    "predicted": 53,
+    "expected": 45
+  },
+  {
+    "image_id": "52ca9334-9911-476d-a130-f44e033aeda1___UF.GRC_BS_Lab Leaf 0244.JPG",
+    "predicted": 53,
+    "expected": 45
+  },
+  {
+    "image_id": "538b69f4-6f98-4bd6-8da7-8f8448c8731b___GCREC_Bact.Sp 5775.JPG",
+    "predicted": 53,
+    "expected": 45
+  },
+  {
+    "image_id": "541eaa7a-3967-4c6a-8a5d-4c9a1ad1881d___UF.GRC_BS_Lab Leaf 9240.JPG",
+    "predicted": 53,
+    "expected": 45
+  },
+  {
+    "image_id": "574b0b70dca884857fe976f44233790c.jpg",
+    "predicted": 52,
+    "expected": 45
+  },
+  {
+    "image_id": "5855b40db4b08e2a88c6cfa1bfa2e3d4.jpg",
+    "predicted": 52,
+    "expected": 45
+  },
+  {
+    "image_id": "593c2769ffb4bad1a931f910f99f314c.jpg",
+    "predicted": 52,
+    "expected": 45
+  },
+  {
+    "image_id": "5a198510-9f1e-4699-b747-d0b1c0892756___UF.GRC_BS_Lab Leaf 0768.JPG",
+    "predicted": 53,
+    "expected": 45
+  },
+  {
+    "image_id": "613d2aaf-3f77-498f-abf2-8519cc595bbe___GCREC_Bact.Sp 5925.JPG",
+    "predicted": 53,
+    "expected": 45
+  },
+  {
+    "image_id": "65ef97f0-f2d6-4867-b48d-8fa8f760f31d___UF.GRC_BS_Lab Leaf 0502.JPG",
+    "predicted": 53,
+    "expected": 45
+  },
+  {
+    "image_id": "77240aeb-e455-4062-907c-43be7bac78b9___GCREC_Bact.Sp 5964.JPG",
+    "predicted": 53,
+    "expected": 45
+  },
+  {
+    "image_id": "79c394e7-b18a-4f3a-afbb-6d41bdf55660___GCREC_Bact.Sp 3062.JPG",
+    "predicted": 53,
+    "expected": 45
+  },
+  {
+    "image_id": "7cce3d3670a75b8f39be7315865ec793.jpg",
+    "predicted": 59,
+    "expected": 45
+  },
+  {
+    "image_id": "82aa438d-e17c-4756-8464-59d8c49497e9___GCREC_Bact.Sp 3245.JPG",
+    "predicted": 53,
+    "expected": 45
+  },
+  {
+    "image_id": "93725854-5d37-48e9-872d-64c38f0462b1___UF.GRC_BS_Lab Leaf 0940.JPG",
+    "predicted": 53,
+    "expected": 45
+  },
+  {
+    "image_id": "9b1443e6-25d0-4dbb-a3f4-b586d7cce49f___UF.GRC_BS_Lab Leaf 8769.JPG",
+    "predicted": 53,
+    "expected": 45
+  },
+  {
+    "image_id": "9be12ff4-ce19-4681-80ec-bc21543a74af___GCREC_Bact.Sp 3318.JPG",
+    "predicted": 53,
+    "expected": 45
+  },
+  {
+    "image_id": "a2591a35-c7ed-4115-9ce5-45fb655cab8a___GCREC_Bact.Sp 6294.JPG",
+    "predicted": 53,
+    "expected": 45
+  },
+  {
+    "image_id": "a637eb22dd6c2297b55c483333a37d60.jpg",
+    "predicted": 53,
+    "expected": 45
+  },
+  {
+    "image_id": "a6387ef1-52bc-4596-a3a4-e0b8c3c46708___GCREC_Bact.Sp 6272.JPG",
+    "predicted": 53,
+    "expected": 45
+  },
+  {
+    "image_id": "a87c0cb6706a7a350c384ce8c7b581f1.jpg",
+    "predicted": 53,
+    "expected": 45
+  },
+  {
+    "image_id": "ab66cbe8-486a-4f26-8253-7c12729fcbec___GCREC_Bact.Sp 3361.JPG",
+    "predicted": 53,
+    "expected": 45
+  },
+  {
+    "image_id": "ae5405b96793727f1aa46a92eb56b84f.jpg",
+    "predicted": 53,
+    "expected": 45
+  },
+  {
+    "image_id": "ae59ca2a-8b8f-490e-af40-a2a1e1963126___GCREC_Bact.Sp 6116.JPG",
+    "predicted": 52,
+    "expected": 45
+  },
+  {
+    "image_id": "b29993ed-4d96-499b-ad36-379fda20c9c7___UF.GRC_BS_Lab Leaf 8843.JPG",
+    "predicted": 53,
+    "expected": 45
+  },
+  {
+    "image_id": "b33c70105e121ab737613b6f8efd8773.jpg",
+    "predicted": 52,
+    "expected": 45
+  },
+  {
+    "image_id": "bcb2dd59-8278-4bc7-9a7c-0fbc599adbab___UF.GRC_BS_Lab Leaf 8961.JPG",
+    "predicted": 53,
+    "expected": 45
+  },
+  {
+    "image_id": "bd6db472ba5e51bbb4917a786efe95fb.jpg",
+    "predicted": 53,
+    "expected": 45
+  },
+  {
+    "image_id": "be295d2fbb80dbfde320bf10f7881835.jpg",
+    "predicted": 53,
+    "expected": 45
+  },
+  {
+    "image_id": "c1ca97a3-0701-4d1b-ab77-0a1d018d7886___GCREC_Bact.Sp 5609.JPG",
+    "predicted": 53,
+    "expected": 45
+  },
+  {
+    "image_id": "c3b8f37cb071ce1d99fe107e60b9be62.jpg",
+    "predicted": 52,
+    "expected": 45
+  },
+  {
+    "image_id": "c59e9a3b15f9d25c83409b626761ce9d.jpg",
+    "predicted": 59,
+    "expected": 45
+  },
+  {
+    "image_id": "c7fc1301-46d2-4474-8814-b3c29a719b57___GCREC_Bact.Sp 6241.JPG",
+    "predicted": 52,
+    "expected": 45
+  },
+  {
+    "image_id": "c8460f59-b097-4d67-9832-1db6e2334459___UF.GRC_BS_Lab Leaf 0360.JPG",
+    "predicted": 53,
+    "expected": 45
+  },
+  {
+    "image_id": "cc4ae662-c07c-4aae-8868-f4711ae5d158___GCREC_Bact.Sp 3852.JPG",
+    "predicted": 52,
+    "expected": 45
+  },
+  {
+    "image_id": "cee4d39127eb739426d1b938150c262f.jpg",
+    "predicted": 53,
+    "expected": 45
+  },
+  {
+    "image_id": "cfd1650b-7007-4916-a41f-9587d4bc4bfa___GCREC_Bact.Sp 5568.JPG",
+    "predicted": 52,
+    "expected": 45
+  },
+  {
+    "image_id": "d336c5781af5cc6078ecd3cd1859d48f.jpg",
+    "predicted": 52,
+    "expected": 45
+  },
+  {
+    "image_id": "da3f518feff9258e2a995ba397674536.jpg",
+    "predicted": 53,
+    "expected": 45
+  },
+  {
+    "image_id": "dd6e2b14-f790-452a-b810-a667064a8699___GCREC_Bact.Sp 5632.JPG",
+    "predicted": 53,
+    "expected": 45
+  },
+  {
+    "image_id": "dfc06cd2-243e-4704-ba23-a23a4ed02ca3___UF.GRC_BS_Lab Leaf 1035.JPG",
+    "predicted": 53,
+    "expected": 45
+  },
+  {
+    "image_id": "dfcda4a05a8ddd8a68ca71becd40ade5.jpg",
+    "predicted": 53,
+    "expected": 45
+  },
+  {
+    "image_id": "e05eca68-134a-45a5-a6ed-d4b80459528f___GCREC_Bact.Sp 3420.JPG",
+    "predicted": 53,
+    "expected": 45
+  },
+  {
+    "image_id": "e351d0c3-b7c6-4c94-9428-e350c4325a22___GCREC_Bact.Sp 3089.JPG",
+    "predicted": 52,
+    "expected": 45
+  },
+  {
+    "image_id": "e3bd438211ae0ba49a056fd890e91dcb.jpg",
+    "predicted": 53,
+    "expected": 45
+  },
+  {
+    "image_id": "f03914f2a99821d0ae1f21bf06cfcdc8.jpg",
+    "predicted": 53,
+    "expected": 45
+  },
+  {
+    "image_id": "f70d2479c193b412a94f6b1444eef076.jpg",
+    "predicted": 53,
+    "expected": 45
+  },
+  {
+    "image_id": "faa03199389998f6fde0d25b6bd02fa7.jpg",
+    "predicted": 53,
+    "expected": 45
+  },
+  {
+    "image_id": "ff3c62e5e6b55efc204b8b67487665d5.jpg",
+    "predicted": 53,
+    "expected": 45
+  },
+  {
+    "image_id": "4408f1a955663f5c5185583e6606f320.jpg",
+    "predicted": 30,
+    "expected": 46
+  },
+  {
+    "image_id": "b58d7a66-097f-4167-abae-92f865407d90___RS_Erly.B 7845.JPG",
+    "predicted": 41,
+    "expected": 46
+  },
+  {
+    "image_id": "b6d8ce15-f786-4998-a67c-1390da696a07___RS_Erly.B 9521.JPG",
+    "predicted": 47,
+    "expected": 46
+  },
+  {
+    "image_id": "0f155fb637d4213ebe4b36978f7276c0.jpg",
+    "predicted": 49,
+    "expected": 47
+  },
+  {
+    "image_id": "16725d6384f5b2829c5788cadc18db70.jpg",
+    "predicted": 45,
+    "expected": 47
+  },
+  {
+    "image_id": "1a94ed0b4b6b2aed14b567505c96adbc.jpg",
+    "predicted": 46,
+    "expected": 47
+  },
+  {
+    "image_id": "250f313e06363e53de50ceeb72c5d11d.jpg",
+    "predicted": 46,
+    "expected": 47
+  },
+  {
+    "image_id": "59e6db045cafdad6d565e9451c890fb4.jpg",
+    "predicted": 46,
+    "expected": 47
+  },
+  {
+    "image_id": "9a97a4e8010cf307d359b36ecf48bbe8.jpg",
+    "predicted": 46,
+    "expected": 47
+  },
+  {
+    "image_id": "9e0e3f79f195ad38193cbb8956ca08ad.jpg",
+    "predicted": 49,
+    "expected": 47
+  },
+  {
+    "image_id": "a1aea86ecf0c6998a65418756b5d3d38.jpg",
+    "predicted": 49,
+    "expected": 47
+  },
+  {
+    "image_id": "ac7324aa1e65d73f254550f494cb37bf.jpg",
+    "predicted": 45,
+    "expected": 47
+  },
+  {
+    "image_id": "b2978af466b3f1c508d579c0a8a2957a.jpg",
+    "predicted": 46,
+    "expected": 47
+  },
+  {
+    "image_id": "cf08683faaf383bd71dadc5a4fb643f4.jpg",
+    "predicted": 46,
+    "expected": 47
+  },
+  {
+    "image_id": "f0763973-1898-4ae6-9350-c9b61976c600___RS_Erly.B 6456.JPG",
+    "predicted": 53,
+    "expected": 47
+  },
+  {
+    "image_id": "f63f3650-9f84-45f9-898b-a6adef0294a3___RS_Erly.B 8419.JPG",
+    "predicted": 46,
+    "expected": 47
+  },
+  {
+    "image_id": "f7497033f125bf6940021fca63c20031.jpg",
+    "predicted": 35,
+    "expected": 47
+  },
+  {
+    "image_id": "2a7cceba-5a33-418a-9718-ccd99ba6c4d1___RS_Late.B 6868.JPG",
+    "predicted": 49,
+    "expected": 48
+  },
+  {
+    "image_id": "511b27dbc3e3adda4afdf4b0e2d498e6.jpg",
+    "predicted": 49,
+    "expected": 48
+  },
+  {
+    "image_id": "84b7d3ab-56ae-4eef-a852-7b32f3ef0160___GHLB2 Leaf 150.JPG",
+    "predicted": 49,
+    "expected": 48
+  },
+  {
+    "image_id": "8bae80d9-576c-4930-8c75-f6df2be339de___RS_Late.B 4912.JPG",
+    "predicted": 49,
+    "expected": 48
+  },
+  {
+    "image_id": "98586693-fe1f-4ea0-8e27-4501b61cf09b___GHLB_PS Leaf 23.5 Day 13.jpg",
+    "predicted": 49,
+    "expected": 48
+  },
+  {
+    "image_id": "a279aae500616e92ba5ea00707fa267e.jpg",
+    "predicted": 49,
+    "expected": 48
+  },
+  {
+    "image_id": "a93d975c-6992-4f12-b454-5b3268961e20___RS_Late.B 4892.JPG",
+    "predicted": 49,
+    "expected": 48
+  },
+  {
+    "image_id": "c1775bad-7c02-41fb-bb7d-f8df91d60ac3___GHLB_PS Leaf 23.5 Day 13.jpg",
+    "predicted": 49,
+    "expected": 48
+  },
+  {
+    "image_id": "f843c76c-a7d4-4031-abe2-9245602fbb15___GHLB_PS Leaf 49.1 Day 18.jpg",
+    "predicted": 49,
+    "expected": 48
+  },
+  {
+    "image_id": "f879b7d4-efe4-4b31-8a89-35db50d561c9___RS_Late.B 4897.JPG",
+    "predicted": 46,
+    "expected": 48
+  },
+  {
+    "image_id": "0cc44f97-c421-4824-92a9-c9a18b005d1d___GHLB2 Leaf 8540.JPG",
+    "predicted": 48,
+    "expected": 49
+  },
+  {
+    "image_id": "1e0554a233d5725b6cdca7ca8af3daa9.jpg",
+    "predicted": 37,
+    "expected": 49
+  },
+  {
+    "image_id": "3a2d870d993cb92d61262a2556cf6589.jpg",
+    "predicted": 37,
+    "expected": 49
+  },
+  {
+    "image_id": "795815f49120d370a445223cad2f66e3.jpg",
+    "predicted": 37,
+    "expected": 49
+  },
+  {
+    "image_id": "e798b45b-9267-4cc7-a459-808f9944fd49___RS_Late.B 5003.JPG",
+    "predicted": 37,
+    "expected": 49
+  },
+  {
+    "image_id": "1f64f046-46e6-47b3-91ef-31c2433face3___Crnl_L.Mold 9089.JPG",
+    "predicted": 51,
+    "expected": 50
+  },
+  {
+    "image_id": "55495e8f-9873-4dda-a02e-32736fed032a___Crnl_L.Mold 6499.JPG",
+    "predicted": 57,
+    "expected": 50
+  },
+  {
+    "image_id": "63b697ad4127360875ad88ad00f5569f.jpg",
+    "predicted": 51,
+    "expected": 50
+  },
+  {
+    "image_id": "780aabe7-0d54-4849-80b8-773552ca4b45___Crnl_L.Mold 8824.JPG",
+    "predicted": 51,
+    "expected": 50
+  },
+  {
+    "image_id": "78cfaa28-9259-4225-8641-5dfaceab2118___Crnl_L.Mold 6690.JPG",
+    "predicted": 51,
+    "expected": 50
+  },
+  {
+    "image_id": "c7f4b724-0adc-4290-b02f-0cda8d148c73___Crnl_L.Mold 8830.JPG",
+    "predicted": 51,
+    "expected": 50
+  },
+  {
+    "image_id": "d6441d7c-be78-420d-b202-1298cd5b94e9___Crnl_L.Mold 6571.JPG",
+    "predicted": 56,
+    "expected": 50
+  },
+  {
+    "image_id": "013d26322dcb48ef275b5a591b6203df.jpg",
+    "predicted": 49,
+    "expected": 51
+  },
+  {
+    "image_id": "05138150-866c-460e-a252-19d269a81d4d___Crnl_L.Mold 6745.JPG",
+    "predicted": 50,
+    "expected": 51
+  },
+  {
+    "image_id": "206234e4-72f0-4543-8945-a697ceffe3c9___Crnl_L.Mold 6795.JPG",
+    "predicted": 50,
+    "expected": 51
+  },
+  {
+    "image_id": "3987fd3b5854a8773206f506090dde2d.jpg",
+    "predicted": 50,
+    "expected": 51
+  },
+  {
+    "image_id": "409e8fe08158b561471b7d2388c7bdc4.jpg",
+    "predicted": 50,
+    "expected": 51
+  },
+  {
+    "image_id": "7a8dfd6e1644c58ea266c8158fc9526e.jpg",
+    "predicted": 50,
+    "expected": 51
+  },
+  {
+    "image_id": "956f504f7144d13732ccae493c4a58fa.jpg",
+    "predicted": 50,
+    "expected": 51
+  },
+  {
+    "image_id": "9846d408-3d13-490d-b9b1-4809f33c22ef___Crnl_L.Mold 6750.JPG",
+    "predicted": 50,
+    "expected": 51
+  },
+  {
+    "image_id": "9dc80e80-9b27-49cd-b1d4-df921ebec570___Crnl_L.Mold 7027.JPG",
+    "predicted": 50,
+    "expected": 51
+  },
+  {
+    "image_id": "c78be5b58e530aee7bd02705bbce5763.jpg",
+    "predicted": 49,
+    "expected": 51
+  },
+  {
+    "image_id": "cb88247d-9a2a-4cd9-888a-76d799436f10___Crnl_L.Mold 7125.JPG",
+    "predicted": 50,
+    "expected": 51
+  },
+  {
+    "image_id": "e23ef5c64084da5b380a8000fe9fc487.jpg",
+    "predicted": 50,
+    "expected": 51
+  },
+  {
+    "image_id": "09b14813997777f84b81454165bd176e.jpg",
+    "predicted": 53,
+    "expected": 52
+  },
+  {
+    "image_id": "0d227915-443b-402c-8a25-cc43434c4bb0___GCREC_Bact.Sp 5913.JPG",
+    "predicted": 53,
+    "expected": 52
+  },
+  {
+    "image_id": "12bd98dd14260d3ed0eec183eb0c3b9a.jpg",
+    "predicted": 45,
+    "expected": 52
+  },
+  {
+    "image_id": "1664fff5-8d2e-4615-a448-2dd093c0df82___GCREC_Bact.Sp 3290.JPG",
+    "predicted": 44,
+    "expected": 52
+  },
+  {
+    "image_id": "1e0582c9-3b55-4aaf-b63b-f223c13eac86___GCREC_Bact.Sp 5571.JPG",
+    "predicted": 45,
+    "expected": 52
+  },
+  {
+    "image_id": "29dcb308e47b3e95505739dff0212b23.jpg",
+    "predicted": 44,
+    "expected": 52
+  },
+  {
+    "image_id": "2beb159560c771408882b5947d0f7cfb.jpg",
+    "predicted": 44,
+    "expected": 52
+  },
+  {
+    "image_id": "30bfa41eb914e4ea8861a4caf74f3307.jpg",
+    "predicted": 44,
+    "expected": 52
+  },
+  {
+    "image_id": "30caf9f1-d21d-449a-a534-e29316b7a020___GCREC_Bact.Sp 5876.JPG",
+    "predicted": 44,
+    "expected": 52
+  },
+  {
+    "image_id": "336d5c1b-ed6b-4e9a-b40b-4e2e53aa77b5___GCREC_Bact.Sp 5857.JPG",
+    "predicted": 44,
+    "expected": 52
+  },
+  {
+    "image_id": "3b87be7bad6399612d0f4096ddd3f78f.jpg",
+    "predicted": 44,
+    "expected": 52
+  },
+  {
+    "image_id": "3f48c32afd0790aaad11654230118d4b.jpg",
+    "predicted": 44,
+    "expected": 52
+  },
+  {
+    "image_id": "4183bde2cd53d52b13096d060f81d8f6.jpg",
+    "predicted": 44,
+    "expected": 52
+  },
+  {
+    "image_id": "46820429da27d7031fccd0d422a167eb.jpg",
+    "predicted": 45,
+    "expected": 52
+  },
+  {
+    "image_id": "494564207b56cf837f10f902e98b5b25.jpg",
+    "predicted": 44,
+    "expected": 52
+  },
+  {
+    "image_id": "4964721145df0a2db2b21acdc961838d.jpg",
+    "predicted": 45,
+    "expected": 52
+  },
+  {
+    "image_id": "4b83264a5ff25a16e67f2efc84713da8.jpg",
+    "predicted": 45,
+    "expected": 52
+  },
+  {
+    "image_id": "4c5ce1ce4c9815858f633144d84fe9bd.jpg",
+    "predicted": 44,
+    "expected": 52
+  },
+  {
+    "image_id": "4e77206fd45ed15138dc3850fe7fc50f.jpg",
+    "predicted": 44,
+    "expected": 52
+  },
+  {
+    "image_id": "5f9e5b0fdab896b99d84af78f6b5ca7b.jpg",
+    "predicted": 44,
+    "expected": 52
+  },
+  {
+    "image_id": "66348a1f-6ca3-43c3-9883-ccf79c8dec89___GCREC_Bact.Sp 3640.JPG",
+    "predicted": 44,
+    "expected": 52
+  },
+  {
+    "image_id": "674f313ed12298288d330eb58cdb643a.jpg",
+    "predicted": 44,
+    "expected": 52
+  },
+  {
+    "image_id": "6992f9df-55ea-43ff-b1ee-96b200f9fd72___GCREC_Bact.Sp 5544.JPG",
+    "predicted": 44,
+    "expected": 52
+  },
+  {
+    "image_id": "6c555fe8f534cf71983eed92c1b872bd.jpg",
+    "predicted": 44,
+    "expected": 52
+  },
+  {
+    "image_id": "734ffc0e189330c9db3d34c1e7af361c.jpg",
+    "predicted": 44,
+    "expected": 52
+  },
+  {
+    "image_id": "776b7c5a95cedb7e7902f1669a5bb629.jpg",
+    "predicted": 44,
+    "expected": 52
+  },
+  {
+    "image_id": "793c4393-0e98-4de2-bbb2-eb0c8412a959___GCREC_Bact.Sp 5621.JPG",
+    "predicted": 44,
+    "expected": 52
+  },
+  {
+    "image_id": "7ab0b3abb51380401c0e3358a03a59d5.jpg",
+    "predicted": 44,
+    "expected": 52
+  },
+  {
+    "image_id": "7aca415ec08a8c13fd857b6ac9b257ab.jpg",
+    "predicted": 44,
+    "expected": 52
+  },
+  {
+    "image_id": "7b50b200d48c5058fd47e0b5398ca72c.jpg",
+    "predicted": 44,
+    "expected": 52
+  },
+  {
+    "image_id": "94872d9a6ef6f9b5c1b48e4ef2694702.jpg",
+    "predicted": 44,
+    "expected": 52
+  },
+  {
+    "image_id": "9579c6c6-2bd1-4bd9-ba38-22791662a30e___GCREC_Bact.Sp 3544.JPG",
+    "predicted": 44,
+    "expected": 52
+  },
+  {
+    "image_id": "a04e5c65-ae00-495e-b732-6c7030e32fc1___GCREC_Bact.Sp 2962.JPG",
+    "predicted": 44,
+    "expected": 52
+  },
+  {
+    "image_id": "a65fa9c39f8bc6d3249a5a0f347f9af6.jpg",
+    "predicted": 44,
+    "expected": 52
+  },
+  {
+    "image_id": "a7c5d9df-0031-4f8d-8ba3-629353956a97___GCREC_Bact.Sp 5991.JPG",
+    "predicted": 44,
+    "expected": 52
+  },
+  {
+    "image_id": "a8cd5b0dfe2c396d31c3952226f83bc8.jpg",
+    "predicted": 53,
+    "expected": 52
+  },
+  {
+    "image_id": "a9081e18-5a97-428a-af5d-6788d430d152___GCREC_Bact.Sp 3347.JPG",
+    "predicted": 44,
+    "expected": 52
+  },
+  {
+    "image_id": "af4796d83ef22ff95a388e9e2bcc6aa8.jpg",
+    "predicted": 44,
+    "expected": 52
+  },
+  {
+    "image_id": "b707af8e153e4b8ec99e674062491857.jpg",
+    "predicted": 44,
+    "expected": 52
+  },
+  {
+    "image_id": "bbc5edd4d2e68a70e5821d83abe86d16.jpg",
+    "predicted": 44,
+    "expected": 52
+  },
+  {
+    "image_id": "bceaea5d611924b5ffda7f09a27a6a04.jpg",
+    "predicted": 44,
+    "expected": 52
+  },
+  {
+    "image_id": "c143e9f80aacf6f1e5047c7a4d6fb8c9.jpg",
+    "predicted": 53,
+    "expected": 52
+  },
+  {
+    "image_id": "c24f34754a760191fe12a8a2a477dc20.jpg",
+    "predicted": 44,
+    "expected": 52
+  },
+  {
+    "image_id": "c4092556be209349cae751ef18f57b0b.jpg",
+    "predicted": 44,
+    "expected": 52
+  },
+  {
+    "image_id": "c847943451ecd1fb4db392c033b52762.jpg",
+    "predicted": 45,
+    "expected": 52
+  },
+  {
+    "image_id": "c98dda1b8bfd426d2ef08e499532b635.jpg",
+    "predicted": 44,
+    "expected": 52
+  },
+  {
+    "image_id": "ca806ab02556236f95486492515b00fc.jpg",
+    "predicted": 44,
+    "expected": 52
+  },
+  {
+    "image_id": "cbbb4f7c-382f-420e-a1c8-e919af9497a7___GCREC_Bact.Sp 3192.JPG",
+    "predicted": 44,
+    "expected": 52
+  },
+  {
+    "image_id": "cdd84e17fe3affee5ba6f2586e42881c.jpg",
+    "predicted": 44,
+    "expected": 52
+  },
+  {
+    "image_id": "ce67b248bcf447d1e0486d403e2695f0.jpg",
+    "predicted": 44,
+    "expected": 52
+  },
+  {
+    "image_id": "d54d75012b6780589ec49015766a7788.jpg",
+    "predicted": 44,
+    "expected": 52
+  },
+  {
+    "image_id": "d7eace0b9b87e413b4671eb94621492c.jpg",
+    "predicted": 44,
+    "expected": 52
+  },
+  {
+    "image_id": "dbd7f161faaf48d9f4cf47fdd6b8ce30.jpg",
+    "predicted": 44,
+    "expected": 52
+  },
+  {
+    "image_id": "e05a59b9b4c230432ba6d14be936a961.jpg",
+    "predicted": 44,
+    "expected": 52
+  },
+  {
+    "image_id": "e828dcaa3713b59288d47e95c0b0d84e.jpg",
+    "predicted": 45,
+    "expected": 52
+  },
+  {
+    "image_id": "eae84e72-e82f-4390-bd24-ebace76e1422___GCREC_Bact.Sp 3161.JPG",
+    "predicted": 45,
+    "expected": 52
+  },
+  {
+    "image_id": "eb3d387f-a7b3-48a3-a925-41d7fc6e98e9___GCREC_Bact.Sp 3423.JPG",
+    "predicted": 44,
+    "expected": 52
+  },
+  {
+    "image_id": "eb4b90e8eaa40a9ccaa1d701e1736a19.jpg",
+    "predicted": 44,
+    "expected": 52
+  },
+  {
+    "image_id": "fa2f8a79c64651a49e5f99ddc994ab09.jpg",
+    "predicted": 44,
+    "expected": 52
+  },
+  {
+    "image_id": "fe95468b-717b-4a28-ba8d-dfb156a93a0e___GCREC_Bact.Sp 6216.JPG",
+    "predicted": 44,
+    "expected": 52
+  },
+  {
+    "image_id": "fff1d02879899b8f3749a5573270208b.jpg",
+    "predicted": 45,
+    "expected": 52
+  },
+  {
+    "image_id": "05c833b3b10faddfbb56b9559c8981db.jpg",
+    "predicted": 45,
+    "expected": 53
+  },
+  {
+    "image_id": "13777621dead978bfb78c5a076f424dd.jpg",
+    "predicted": 45,
+    "expected": 53
+  },
+  {
+    "image_id": "191ae7fa-8ca5-4654-a01d-c4f497bb7377___UF.GRC_BS_Lab Leaf 0615.JPG",
+    "predicted": 45,
+    "expected": 53
+  },
+  {
+    "image_id": "21218af849fb0748599e9ffc671cb6a2.jpg",
+    "predicted": 45,
+    "expected": 53
+  },
+  {
+    "image_id": "376611b05cc4395e7a4155aa1605de0b.jpg",
+    "predicted": 45,
+    "expected": 53
+  },
+  {
+    "image_id": "41128d1d-2a43-4c08-a100-c92c2fc8b9b0___GCREC_Bact.Sp 3413.JPG",
+    "predicted": 45,
+    "expected": 53
+  },
+  {
+    "image_id": "415a74645b453784887b9e85880516b2.jpg",
+    "predicted": 55,
+    "expected": 53
+  },
+  {
+    "image_id": "435f44692b7c202349411fdcd8858e4c.jpg",
+    "predicted": 45,
+    "expected": 53
+  },
+  {
+    "image_id": "58ba475094a0c716814f464e0337f33a.jpg",
+    "predicted": 45,
+    "expected": 53
+  },
+  {
+    "image_id": "5be5dbeeb3633f177e4a05cbde8ff33b.jpg",
+    "predicted": 45,
+    "expected": 53
+  },
+  {
+    "image_id": "62d0ccb6-69ee-4a28-989f-134785b48a6a___GCREC_Bact.Sp 6287.JPG",
+    "predicted": 52,
+    "expected": 53
+  },
+  {
+    "image_id": "66366ae7bcf903896adb0ea76e0b6a42.jpg",
+    "predicted": 52,
+    "expected": 53
+  },
+  {
+    "image_id": "67b11dd7-7d7e-4214-85c4-e7675539251d___GCREC_Bact.Sp 3728.JPG",
+    "predicted": 52,
+    "expected": 53
+  },
+  {
+    "image_id": "728e65f889819c79f9a734b840489d3f.jpg",
+    "predicted": 45,
+    "expected": 53
+  },
+  {
+    "image_id": "916574f0-df2f-4d9e-8ba1-0dbd7b702229___UF.GRC_BS_Lab Leaf 0624.JPG",
+    "predicted": 45,
+    "expected": 53
+  },
+  {
+    "image_id": "92c3b3aa61ceb6a6f11d1dfccb5d5646.jpg",
+    "predicted": 45,
+    "expected": 53
+  },
+  {
+    "image_id": "94096d9a-28b6-48b8-a7c4-8b4fa2885561___UF.GRC_BS_Lab Leaf 0213.JPG",
+    "predicted": 45,
+    "expected": 53
+  },
+  {
+    "image_id": "a2b9fd44-1a96-40ea-9c22-e46121316355___UF.GRC_BS_Lab Leaf 8664.JPG",
+    "predicted": 45,
+    "expected": 53
+  },
+  {
+    "image_id": "a7059350-86ef-4cc0-935d-c9cb678380cd___GCREC_Bact.Sp 6392.JPG",
+    "predicted": 44,
+    "expected": 53
+  },
+  {
+    "image_id": "abe7d67f1d60946a5495e08d16916d01.jpg",
+    "predicted": 45,
+    "expected": 53
+  },
+  {
+    "image_id": "af9af5733f4be3affd7f65eb41fe1127.jpg",
+    "predicted": 45,
+    "expected": 53
+  },
+  {
+    "image_id": "afd78d63-13b3-400f-8e9a-1c87f27fa12f___UF.GRC_BS_Lab Leaf 0239.JPG",
+    "predicted": 45,
+    "expected": 53
+  },
+  {
+    "image_id": "b2a40428-4154-4f13-bff6-28c36f4293a9___GCREC_Bact.Sp 3088.JPG",
+    "predicted": 52,
+    "expected": 53
+  },
+  {
+    "image_id": "b59c4e913a891f79bfdfe37637fb6b59.jpg",
+    "predicted": 45,
+    "expected": 53
+  },
+  {
+    "image_id": "b8eae33d-0b5a-45c0-a926-001512a72db1___UF.GRC_BS_Lab Leaf 0611.JPG",
+    "predicted": 45,
+    "expected": 53
+  },
+  {
+    "image_id": "bcfafe5b52ff1a4534c8877b4cca0ee5.jpg",
+    "predicted": 5,
+    "expected": 53
+  },
+  {
+    "image_id": "bfd9caac-aa4c-4be2-91be-23f2ee32da9f___GCREC_Bact.Sp 5776.JPG",
+    "predicted": 45,
+    "expected": 53
+  },
+  {
+    "image_id": "d1502011a25648e165e79c618424ee7d.jpg",
+    "predicted": 45,
+    "expected": 53
+  },
+  {
+    "image_id": "d5c1bacf-5e76-4332-bdd4-bf18eb7ea58e___UF.GRC_BS_Lab Leaf 8633.JPG",
+    "predicted": 45,
+    "expected": 53
+  },
+  {
+    "image_id": "da5538b9b36365e93bcdb013172094bd.jpg",
+    "predicted": 45,
+    "expected": 53
+  },
+  {
+    "image_id": "da80d96032dee0122eacefed2f28948b.jpg",
+    "predicted": 45,
+    "expected": 53
+  },
+  {
+    "image_id": "db1ef89c102ad5393897818149c820dd.jpg",
+    "predicted": 45,
+    "expected": 53
+  },
+  {
+    "image_id": "e0aecb9ddcf2db5b91053b624a798430.jpg",
+    "predicted": 45,
+    "expected": 53
+  },
+  {
+    "image_id": "e4e11751-2c64-491f-9aa3-26677932f65c___UF.GRC_BS_Lab Leaf 0636.JPG",
+    "predicted": 45,
+    "expected": 53
+  },
+  {
+    "image_id": "f68ccc94-dbbb-43e3-a7fb-c298c0f5830c___GCREC_Bact.Sp 6057.JPG",
+    "predicted": 44,
+    "expected": 53
+  },
+  {
+    "image_id": "fa80a77b48f9e44ba579256ececab6c5.jpg",
+    "predicted": 45,
+    "expected": 53
+  },
+  {
+    "image_id": "fb255876-e618-43a7-ad17-7b200039dbde___UF.GRC_BS_Lab Leaf 0614.JPG",
+    "predicted": 45,
+    "expected": 53
+  },
+  {
+    "image_id": "fc6a6a03-757b-4549-8c2e-194141456f60___GCREC_Bact.Sp 6252.JPG",
+    "predicted": 45,
+    "expected": 53
+  },
+  {
+    "image_id": "175819ccd510279d254670ca60172ed0.jpg",
+    "predicted": 41,
+    "expected": 54
+  },
+  {
+    "image_id": "3d9cf11d-eb78-481a-a94a-ca6629b757a0___Matt.S_CG 7453.JPG",
+    "predicted": 55,
+    "expected": 54
+  },
+  {
+    "image_id": "3e9ee8cb3d5c9d35c128cd174a0fb288.jpg",
+    "predicted": 55,
+    "expected": 54
+  },
+  {
+    "image_id": "4c0e75d253b2253483301a41628b10ac.jpg",
+    "predicted": 55,
+    "expected": 54
+  },
+  {
+    "image_id": "54cf4681-e4b4-4a9d-9c7b-0745c8dae7a1___Matt.S_CG 1100.JPG",
+    "predicted": 55,
+    "expected": 54
+  },
+  {
+    "image_id": "70fb038b-90e8-4218-a440-4db6daa90fe0___Matt.S_CG 1102.JPG",
+    "predicted": 55,
+    "expected": 54
+  },
+  {
+    "image_id": "c680ff81-bb1f-48c3-a68d-50ba12a94392___Matt.S_CG 7419.JPG",
+    "predicted": 55,
+    "expected": 54
+  },
+  {
+    "image_id": "c9106839e2a12effab25acb9862e4802.jpg",
+    "predicted": 55,
+    "expected": 54
+  },
+  {
+    "image_id": "cfe3a7c57a8622fc9c6e183efd826c11.jpg",
+    "predicted": 60,
+    "expected": 54
+  },
+  {
+    "image_id": "d3c59c88-195f-4aca-8311-a7c06fcf6c1b___Matt.S_CG 0969.JPG",
+    "predicted": 53,
+    "expected": 54
+  },
+  {
+    "image_id": "f908f130-1a88-49da-9f6a-0cb7312da739___JR_Sept.L.S 2460.JPG",
+    "predicted": 55,
+    "expected": 54
+  },
+  {
+    "image_id": "01cf6aebe2a3d25a77a818f1966dc618.jpg",
+    "predicted": 54,
+    "expected": 55
+  },
+  {
+    "image_id": "2ee8fa50-545b-4de2-9b26-6af401c46ede___JR_Sept.L.S 2696.JPG",
+    "predicted": 54,
+    "expected": 55
+  },
+  {
+    "image_id": "552f6853-9c7f-49f5-9f65-6cc13d301222___Matt.S_CG 6615.JPG",
+    "predicted": 54,
+    "expected": 55
+  },
+  {
+    "image_id": "6ffa318d3eb80a82c7b0e0074f858bd2.jpg",
+    "predicted": 35,
+    "expected": 55
+  },
+  {
+    "image_id": "99b5e8f60eea37c0b9983b3afcab7000.jpg",
+    "predicted": 47,
+    "expected": 55
+  },
+  {
+    "image_id": "9c157637be101d40cfc8d145044919da.jpg",
+    "predicted": 54,
+    "expected": 55
+  },
+  {
+    "image_id": "baeeb93d-df9f-489a-a019-5adc8cf361a3___Matt.S_CG 7450.JPG",
+    "predicted": 54,
+    "expected": 55
+  },
+  {
+    "image_id": "e044ba8b8356d7b17655c49a658e0f97.jpg",
+    "predicted": 35,
+    "expected": 55
+  },
+  {
+    "image_id": "eaeb0d13f681b0231b842c3c94b8a14c.jpg",
+    "predicted": 54,
+    "expected": 55
+  },
+  {
+    "image_id": "6de8d00c365b164890f1233c8034dfc4.jpg",
+    "predicted": 57,
+    "expected": 56
+  },
+  {
+    "image_id": "77fe4e2b19cd8d8cfdbe21f2f7ec15ec.jpg",
+    "predicted": 57,
+    "expected": 56
+  },
+  {
+    "image_id": "8f77dc8f140bf0ceb474a3dca5305202.jpg",
+    "predicted": 57,
+    "expected": 56
+  },
+  {
+    "image_id": "9a831cf068ccfc266793086d188f9b34.jpg",
+    "predicted": 48,
+    "expected": 56
+  },
+  {
+    "image_id": "c7bb5d91-e90c-4ade-b142-19f2828cf3fb___Com.G_SpM_FL 1172.JPG",
+    "predicted": 57,
+    "expected": 56
+  },
+  {
+    "image_id": "c992dcf1-a2de-4de7-b403-bb357efc80ab___Com.G_SpM_FL 1645.JPG",
+    "predicted": 57,
+    "expected": 56
+  },
+  {
+    "image_id": "d07ab62731102c7d3a3abaac517dd4eb.jpg",
+    "predicted": 57,
+    "expected": 56
+  },
+  {
+    "image_id": "dba58ed8-c9ff-42e3-9907-840c0a29f076___Com.G_SpM_FL 1444.JPG",
+    "predicted": 57,
+    "expected": 56
+  },
+  {
+    "image_id": "fda94c0680111d53e47f1010856976e9.jpg",
+    "predicted": 50,
+    "expected": 56
+  },
+  {
+    "image_id": "4e7aabbf8a728a9427c5849a26715775.jpg",
+    "predicted": 56,
+    "expected": 57
+  },
+  {
+    "image_id": "535dd66e9c8e38f244abac2587535511.jpg",
+    "predicted": 56,
+    "expected": 57
+  },
+  {
+    "image_id": "5ee5cfc5894c352d5ff003044a2f527a.jpg",
+    "predicted": 51,
+    "expected": 57
+  },
+  {
+    "image_id": "61c6fdc16bd1b112d8f6caf2ccf1271e.jpg",
+    "predicted": 56,
+    "expected": 57
+  },
+  {
+    "image_id": "83634d8be47659315e1520b046a2aca5.jpg",
+    "predicted": 50,
+    "expected": 57
+  },
+  {
+    "image_id": "8873482900b7f1688b732c1213922c65.jpg",
+    "predicted": 56,
+    "expected": 57
+  },
+  {
+    "image_id": "8ae111119ac414810a96b46fd1e05743.jpg",
+    "predicted": 56,
+    "expected": 57
+  },
+  {
+    "image_id": "8f749a87c392a9ed19caa6497d26e99e.jpg",
+    "predicted": 51,
+    "expected": 57
+  },
+  {
+    "image_id": "aad4d745907e744472c7e1a755da9147.jpg",
+    "predicted": 56,
+    "expected": 57
+  },
+  {
+    "image_id": "bafa7923-1efe-4e44-94b0-9427b6726bc1___Com.G_SpM_FL 9525.JPG",
+    "predicted": 56,
+    "expected": 57
+  },
+  {
+    "image_id": "e1b3535e-675c-4021-a14f-75da349d6127___Com.G_SpM_FL 8757.JPG",
+    "predicted": 56,
+    "expected": 57
+  },
+  {
+    "image_id": "01717e9f-ac1b-4d16-8c9d-4ad09e95d832___YLCV_NREC 2463.JPG",
+    "predicted": 59,
+    "expected": 58
+  },
+  {
+    "image_id": "0e1fda76-d958-490f-9fcb-21e86c99dbe6___UF.GRC_YLCV_Lab 02200.JPG",
+    "predicted": 59,
+    "expected": 58
+  },
+  {
+    "image_id": "14be2f34e359724e2d3eb47978cc5cb8.jpg",
+    "predicted": 59,
+    "expected": 58
+  },
+  {
+    "image_id": "14d0e8c6-51c0-4f21-972f-0b925c56a980___UF.GRC_YLCV_Lab 01366.JPG",
+    "predicted": 59,
+    "expected": 58
+  },
+  {
+    "image_id": "1773aedb-6486-4649-b912-4c0a5bd96a01___UF.GRC_YLCV_Lab 01351.JPG",
+    "predicted": 59,
+    "expected": 58
+  },
+  {
+    "image_id": "1d389f4a-ac40-4233-8b73-5bbf4428fda2___UF.GRC_YLCV_Lab 01279.JPG",
+    "predicted": 59,
+    "expected": 58
+  },
+  {
+    "image_id": "313f3d16-02bf-4333-91da-beefc4ef1afb___UF.GRC_YLCV_Lab 01533.JPG",
+    "predicted": 59,
+    "expected": 58
+  },
+  {
+    "image_id": "3167dea8-47ef-4761-9e14-f7b66dcd976f___YLCV_NREC 2538.JPG",
+    "predicted": 56,
+    "expected": 58
+  },
+  {
+    "image_id": "3bbe4a342ac16fd9b3dacd15aa72af72.jpg",
+    "predicted": 59,
+    "expected": 58
+  },
+  {
+    "image_id": "409b001a-586a-4b69-9337-af6f78f7ef31___YLCV_NREC 2074.JPG",
+    "predicted": 59,
+    "expected": 58
+  },
+  {
+    "image_id": "46e25430839dbb11bbfd3b84e3cf62a9.jpg",
+    "predicted": 59,
+    "expected": 58
+  },
+  {
+    "image_id": "4ae3e9a1227551f97b9358e72ca84323.jpg",
+    "predicted": 59,
+    "expected": 58
+  },
+  {
+    "image_id": "516b6688057c3c2ea6c7fe3c6ee7646c.jpg",
+    "predicted": 59,
+    "expected": 58
+  },
+  {
+    "image_id": "538b6523-416b-401b-b739-5b0f88f65b41___YLCV_NREC 0279.JPG",
+    "predicted": 59,
+    "expected": 58
+  },
+  {
+    "image_id": "5559cc38-c1ac-47ad-b25a-2cbb8c51df78___UF.GRC_YLCV_Lab 08502.JPG",
+    "predicted": 59,
+    "expected": 58
+  },
+  {
+    "image_id": "5857bdc2-f4f7-4fc2-a9ef-006b34900f82___YLCV_NREC 2185.JPG",
+    "predicted": 59,
+    "expected": 58
+  },
+  {
+    "image_id": "5a1ad8fc-0125-46fd-bd87-26b2294633c3___UF.GRC_YLCV_Lab 08528.JPG",
+    "predicted": 59,
+    "expected": 58
+  },
+  {
+    "image_id": "5c7f3f68-f289-40cd-a434-31b213ca9083___YLCV_NREC 2214.JPG",
+    "predicted": 59,
+    "expected": 58
+  },
+  {
+    "image_id": "60eaa2e6bb02e15d973e4a5e8593cb52.jpg",
+    "predicted": 59,
+    "expected": 58
+  },
+  {
+    "image_id": "69e830717fe75b9ee548adaf6a033a60.jpg",
+    "predicted": 59,
+    "expected": 58
+  },
+  {
+    "image_id": "70446b0e321a37e04c6ddf8ba8fd3945.jpg",
+    "predicted": 59,
+    "expected": 58
+  },
+  {
+    "image_id": "78f8a135-5741-46d0-bb1b-589f127c0871___YLCV_GCREC 1971.JPG",
+    "predicted": 59,
+    "expected": 58
+  },
+  {
+    "image_id": "7dc537f7b299873f75d18fc6e5135f2b.jpg",
+    "predicted": 59,
+    "expected": 58
+  },
+  {
+    "image_id": "810799d4-d5a0-4fc9-908c-a27e3a617e14___YLCV_NREC 2048.JPG",
+    "predicted": 59,
+    "expected": 58
+  },
+  {
+    "image_id": "8131b829-6d50-4c6a-934f-1287650a3d2a___UF.GRC_YLCV_Lab 02456.JPG",
+    "predicted": 59,
+    "expected": 58
+  },
+  {
+    "image_id": "8244735f-4ba8-4ab0-8130-e315189986a3___YLCV_GCREC 5460.JPG",
+    "predicted": 59,
+    "expected": 58
+  },
+  {
+    "image_id": "82c9f4ee-648c-4f54-aac0-dd2062636163___YLCV_NREC 2455.JPG",
+    "predicted": 59,
+    "expected": 58
+  },
+  {
+    "image_id": "8491d0bb-bfd5-4b07-9a49-282b62f9f768___UF.GRC_YLCV_Lab 01710.JPG",
+    "predicted": 59,
+    "expected": 58
+  },
+  {
+    "image_id": "86ac31fc-a8e8-4935-8276-e80d4946d77a___YLCV_GCREC 2214.JPG",
+    "predicted": 59,
+    "expected": 58
+  },
+  {
+    "image_id": "87226c34-d7bf-4767-afdc-8a56cf45586a___YLCV_NREC 2380.JPG",
+    "predicted": 59,
+    "expected": 58
+  },
+  {
+    "image_id": "8805ae7ec206876ece117b72b210561d.jpg",
+    "predicted": 59,
+    "expected": 58
+  },
+  {
+    "image_id": "884c75d8-4cb8-40d3-9730-8ece772595a0___UF.GRC_YLCV_Lab 09537.JPG",
+    "predicted": 59,
+    "expected": 58
+  },
+  {
+    "image_id": "96cd3041-9e88-4796-9e9f-e2eda1ecff42___YLCV_GCREC 2290.JPG",
+    "predicted": 59,
+    "expected": 58
+  },
+  {
+    "image_id": "96d03f6d-5f9e-46ae-ba3b-ea0aa5a5b32d___YLCV_NREC 2833.JPG",
+    "predicted": 59,
+    "expected": 58
+  },
+  {
+    "image_id": "9811a6503d7d467c751379cc6487b1e5.jpg",
+    "predicted": 59,
+    "expected": 58
+  },
+  {
+    "image_id": "9e3322f5d6cbe97fc91771f6fd1c6e05.jpg",
+    "predicted": 59,
+    "expected": 58
+  },
+  {
+    "image_id": "9f7be972-e41d-4732-be14-8e465f622223___YLCV_NREC 2780.JPG",
+    "predicted": 59,
+    "expected": 58
+  },
+  {
+    "image_id": "a139a4672fc037806e2744450790ce49.jpg",
+    "predicted": 59,
+    "expected": 58
+  },
+  {
+    "image_id": "a415eac7-17c4-4614-8210-ca2b68f90388___YLCV_NREC 2066.JPG",
+    "predicted": 59,
+    "expected": 58
+  },
+  {
+    "image_id": "a7d02c06-d199-480f-b3a3-7fae092a5f43___YLCV_GCREC 2915.JPG",
+    "predicted": 59,
+    "expected": 58
+  },
+  {
+    "image_id": "a96e401a6353297c828f753323e0bd4c.jpg",
+    "predicted": 59,
+    "expected": 58
+  },
+  {
+    "image_id": "a9b02eae23d627dcd49b315151aa53d7.jpg",
+    "predicted": 59,
+    "expected": 58
+  },
+  {
+    "image_id": "ac283f75-acae-4c17-bfa9-5ce9d9c101a4___UF.GRC_YLCV_Lab 01371.JPG",
+    "predicted": 59,
+    "expected": 58
+  },
+  {
+    "image_id": "acea988d387267553787feef6f0e7f8f.jpg",
+    "predicted": 59,
+    "expected": 58
+  },
+  {
+    "image_id": "ad80c057-1d90-44a4-b330-327657b1075a___YLCV_NREC 2126.JPG",
+    "predicted": 59,
+    "expected": 58
+  },
+  {
+    "image_id": "b180c2cb-f3d0-496b-8a86-c6d54d25816f___UF.GRC_YLCV_Lab 03033.JPG",
+    "predicted": 59,
+    "expected": 58
+  },
+  {
+    "image_id": "b4fddd66ca0b131f8c615d86b763c1b9.jpg",
+    "predicted": 59,
+    "expected": 58
+  },
+  {
+    "image_id": "b7b2732c-4481-4cbf-8dd0-8256642baf51___UF.GRC_YLCV_Lab 02455.JPG",
+    "predicted": 59,
+    "expected": 58
+  },
+  {
+    "image_id": "b94cdb69-ae50-4c2d-8b59-8a5f94d1b169___YLCV_NREC 2009.JPG",
+    "predicted": 59,
+    "expected": 58
+  },
+  {
+    "image_id": "c8c6c0bbac437c25fc0580deea72b19e.jpg",
+    "predicted": 59,
+    "expected": 58
+  },
+  {
+    "image_id": "cabb4ef8587fbcf5343a8edbcd445f1f.jpg",
+    "predicted": 59,
+    "expected": 58
+  },
+  {
+    "image_id": "d1103cac-dfe3-41d1-9335-0e5a84c19bdb___UF.GRC_YLCV_Lab 01375.JPG",
+    "predicted": 59,
+    "expected": 58
+  },
+  {
+    "image_id": "d1741d592b461b1318cab0b23ebd5c44.jpg",
+    "predicted": 59,
+    "expected": 58
+  },
+  {
+    "image_id": "d941f1aa-e14a-4079-95a7-80416652f601___YLCV_NREC 0282.JPG",
+    "predicted": 59,
+    "expected": 58
+  },
+  {
+    "image_id": "d9646346-10be-4daa-9d55-2ac7b2054021___YLCV_NREC 2032.JPG",
+    "predicted": 59,
+    "expected": 58
+  },
+  {
+    "image_id": "dbb6cc9b-512f-426f-b76c-fcd61d9f4e19___YLCV_NREC 2987.JPG",
+    "predicted": 59,
+    "expected": 58
+  },
+  {
+    "image_id": "df852766-76dd-4029-be71-d3960bc234ec___YLCV_GCREC 2537.JPG",
+    "predicted": 59,
+    "expected": 58
+  },
+  {
+    "image_id": "df969b9a553c9c005a437f675d6f0450.jpg",
+    "predicted": 59,
+    "expected": 58
+  },
+  {
+    "image_id": "e3aa7c50-b3d4-4a1d-ad6c-823039fba9f8___UF.GRC_YLCV_Lab 03203.JPG",
+    "predicted": 59,
+    "expected": 58
+  },
+  {
+    "image_id": "e97ef3b1-710a-4248-a660-30a8a3e4e3c4___YLCV_GCREC 2078.JPG",
+    "predicted": 59,
+    "expected": 58
+  },
+  {
+    "image_id": "ecb4ec4b-1992-43c5-9b1c-2a0e268dec76___YLCV_NREC 0238.JPG",
+    "predicted": 59,
+    "expected": 58
+  },
+  {
+    "image_id": "f8c421c7-d464-45da-88e5-4fb42f6b0c8c___YLCV_NREC 2339.JPG",
+    "predicted": 59,
+    "expected": 58
+  },
+  {
+    "image_id": "fad1ce70e12b3c646c27ef5aa6fb8529.jpg",
+    "predicted": 59,
+    "expected": 58
+  },
+  {
+    "image_id": "00b814ee-cfa9-489a-bed3-c1f927bef05a___YLCV_NREC 0220.JPG",
+    "predicted": 58,
+    "expected": 59
+  },
+  {
+    "image_id": "1543563e0611ffa776149ea5bbd4bfd2.jpg",
+    "predicted": 58,
+    "expected": 59
+  },
+  {
+    "image_id": "1b02f13d-08c6-4f7b-b0ae-2bc026a92759___YLCV_NREC 2961.JPG",
+    "predicted": 58,
+    "expected": 59
+  },
+  {
+    "image_id": "1b984071-0529-4e15-9157-0b4b4a214d8f___UF.GRC_YLCV_Lab 08574.JPG",
+    "predicted": 45,
+    "expected": 59
+  },
+  {
+    "image_id": "2d3cb3a2-7157-4ca7-803b-508a59701a70___YLCV_NREC 0274.JPG",
+    "predicted": 58,
+    "expected": 59
+  },
+  {
+    "image_id": "3c29dad4-3544-465b-b678-a78ca0ad8f58___YLCV_GCREC 2243.JPG",
+    "predicted": 58,
+    "expected": 59
+  },
+  {
+    "image_id": "46910f6390a93c409aa4a1f11dfc1db4.jpg",
+    "predicted": 37,
+    "expected": 59
+  },
+  {
+    "image_id": "492725747f0d02c24d0c2fad4d828f28.jpg",
+    "predicted": 58,
+    "expected": 59
+  },
+  {
+    "image_id": "4d272f65-0776-48ca-9de9-1abe392023cf___YLCV_GCREC 2820.JPG",
+    "predicted": 58,
+    "expected": 59
+  },
+  {
+    "image_id": "50c3799c-1ee9-4c5f-ba71-0b7cc82a9b9f___YLCV_GCREC 2050.JPG",
+    "predicted": 58,
+    "expected": 59
+  },
+  {
+    "image_id": "53c9ef0d-e653-4ee4-9e86-1909c7716fbe___YLCV_NREC 0152.JPG",
+    "predicted": 58,
+    "expected": 59
+  },
+  {
+    "image_id": "5ade9ca0-19ed-42dc-8c02-a0858560ceb4___YLCV_NREC 2044.JPG",
+    "predicted": 58,
+    "expected": 59
+  },
+  {
+    "image_id": "7cef08823e113357e9d997ecfe577621.jpg",
+    "predicted": 58,
+    "expected": 59
+  },
+  {
+    "image_id": "7e0d5243-30b8-4e75-a530-a07e20c3ee13___YLCV_NREC 2043.JPG",
+    "predicted": 58,
+    "expected": 59
+  },
+  {
+    "image_id": "7ef66cebe221ea35def3c5e7a372366a.jpg",
+    "predicted": 58,
+    "expected": 59
+  },
+  {
+    "image_id": "8f8f5b03-854c-4572-ac84-2893366dffef___YLCV_GCREC 2750.JPG",
+    "predicted": 58,
+    "expected": 59
+  },
+  {
+    "image_id": "9256c043c31235290c6c9b711e753118.jpg",
+    "predicted": 53,
+    "expected": 59
+  },
+  {
+    "image_id": "94f7294a9cd223caa77ffc69c8fe42d8.jpg",
+    "predicted": 53,
+    "expected": 59
+  },
+  {
+    "image_id": "9b8800b49d5ad70ef0bfe039b77db559.jpg",
+    "predicted": 58,
+    "expected": 59
+  },
+  {
+    "image_id": "a4ca828d74ca9f8f292cd9a949efaee4.jpg",
+    "predicted": 58,
+    "expected": 59
+  },
+  {
+    "image_id": "a5e711e265e383e276a4653a5d2efdbb.jpg",
+    "predicted": 58,
+    "expected": 59
+  },
+  {
+    "image_id": "aca447c5-2284-4b01-854f-1147f24e085a___UF.GRC_YLCV_Lab 08579 - \u526f\u672c.JPG",
+    "predicted": 53,
+    "expected": 59
+  },
+  {
+    "image_id": "b2796f3bd1c382708932ab41c5aeb37a.jpg",
+    "predicted": 53,
+    "expected": 59
+  },
+  {
+    "image_id": "b2ac006bc2893c8d7e3393e437a1ea66.jpg",
+    "predicted": 53,
+    "expected": 59
+  },
+  {
+    "image_id": "b57bfdc6-1769-4976-8d28-14e1c7915b36___YLCV_NREC 2855.JPG",
+    "predicted": 58,
+    "expected": 59
+  },
+  {
+    "image_id": "b7ec839e-61f6-4a37-a570-8497741d28ed___YLCV_NREC 2555.JPG",
+    "predicted": 58,
+    "expected": 59
+  },
+  {
+    "image_id": "de8fb56b-d3f3-4691-bb7c-0aaeaba74e81___YLCV_GCREC 2466.JPG",
+    "predicted": 58,
+    "expected": 59
+  },
+  {
+    "image_id": "ef76fdc5f903d77540c519d5055fac18.jpg",
+    "predicted": 58,
+    "expected": 59
+  },
+  {
+    "image_id": "f904bb185c38ef5af607a84e796a38b5.jpg",
+    "predicted": 58,
+    "expected": 59
+  },
+  {
+    "image_id": "3a6e9528762c4f1a00a9ee60b8bfeb3c.jpg",
+    "predicted": 54,
+    "expected": 60
+  },
+  {
+    "image_id": "6b6f1db2cc73bdbde85fe0ef4ff22ac1.jpg",
+    "predicted": 54,
+    "expected": 60
+  },
+  {
+    "image_id": "a09b69592234079eb5fd78f9e453d281.jpg",
+    "predicted": 56,
+    "expected": 60
+  },
+  {
+    "image_id": "a381dda6cac86469d7622c6e4aa23ecc.jpg",
+    "predicted": 57,
+    "expected": 60
+  }
+]
