@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 from sklearn.metrics import confusion_matrix
 import numpy as np
 from imagemove2 import getlookup
-
+import json
 
 labels_1_ptype = {0: 8,
                   1: 2,
@@ -67,55 +67,15 @@ def densenet(cls=61):
 
 
 if __name__ == '__main__':
-    lookup = getlookup()
-    model = densenet(len(lookup[2]['Tomato'])).cuda()
+    a, b, c = getlookup()
+    d = [a[x] for x in a]
 
-    checkpoint = torch.load('/home/palm/PycharmProjects/plant_d/checkpoint/try_3_densesep-Tomatobest.t7')
-    model.load_state_dict(checkpoint['net'])
-    directory = '/media/palm/Unimportant/pdr2018/typesep_validate/Tomato/'
-    out = []
-    c = 0
-    normalize = transforms.Normalize(mean=[0.485, 0.456, 0.406],
-                                     std=[0.229, 0.224, 0.225])
-    model.eval()
-    correct = 0
-    total = 0
-    val_loader = torch.utils.data.DataLoader(
-        datasets.ImageFolder(directory, transforms.Compose([
-            transforms.Resize(256),
-            transforms.CenterCrop(224),
-            transforms.ToTensor(),
-
-            normalize,
-        ])),
-        batch_size=1,
-        num_workers=4,
-        pin_memory=False)
-    cls = val_loader.sampler.data_source.class_to_idx
-    print(cls)
-    y_test, y_pred = [], []
-    cfs = 0  # temp correct
-    with torch.no_grad():
-        for batch_idx, (inputs, targets) in enumerate(val_loader):
-            inputs, targets = inputs.to('cuda'), targets.to('cuda')
-            outputs = model(inputs.view(-1, 3, 224, 224))
-            _, predicted = outputs.max(1)
-            y_test.append(targets)
-            y_pred.append(predicted.cpu().detach().numpy()[0])
-            # y_pred.append(labels_1_ptype[predicted.cpu().detach().numpy()[0]])
-            cfs += predicted.eq(targets).sum().item()
-
-            if int(predicted.cpu().detach().numpy()[0]) != int(val_loader.sampler.data_source.imgs[batch_idx][1]):
-                out.append({'image_id': val_loader.sampler.data_source.imgs[batch_idx][0].split('/')[-1],
-                            'predicted': int(predicted.cpu().detach().numpy()[0]),
-                            'expected': val_loader.sampler.data_source.imgs[batch_idx][1],
-                            })
-            else:
-                correct += 1
-
-            c += 1
-            print(cfs, '/', c, end='\r')
-
+    file = json.load(open('1_sepeval.json', 'r'))
+    y_test = []
+    y_pred = []
+    for k in file:
+        y_test.append(k['predicted'])
+        y_pred.append(k['expected'])
     # Compute confusion matrix
     cnf_matrix = confusion_matrix(y_test, y_pred)
     np.set_printoptions(precision=2)
@@ -124,8 +84,7 @@ if __name__ == '__main__':
     #     pickle.dump([y_test, y_pred], wr)
     # Plot non-normalized confusion matrix
     plt.figure()
-    plot_confusion_matrix(cnf_matrix, classes=range(len(lookup[2]['Tomato'])),
-    # plot_confusion_matrix(cnf_matrix, classes=sorted(lookup[2]['Tomato']),
+    plot_confusion_matrix(cnf_matrix, classes=range(61),
                           title='Plant types')
 
     plt.show()

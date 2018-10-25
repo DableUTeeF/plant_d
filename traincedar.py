@@ -1,3 +1,7 @@
+"""
+/media/palm/Unimportant/pdr2018/typesep_train/Cedar
+"""
+
 from __future__ import print_function
 import os
 import warnings
@@ -139,6 +143,7 @@ class CustomSGD(torch.optim.SGD):
 
 if __name__ == '__main__':
 
+    lookup = getlookup()
     args = DotDict({
         'batch_size': 32,
         'batch_mul': 4,
@@ -147,44 +152,49 @@ if __name__ == '__main__':
         'model': '',
         'train_plot': False,
         'epochs': [60],
-        'try_no': '2_denseptype',
+        'try_no': '1_densecedar',
         'imsize': [224],
         'imsize_l': [256],
-        'traindir': '/root/palm/DATA/plant/typesep_type_train/',
-        'valdir': '/root/palm/DATA/plant/typesep_type_validate/',
+        'traindir': '/root/palm/DATA/plant/typesep_train/Cedar',
+        'valdir': '/root/palm/DATA/plant/typesep_validate/Cedar',
         'workers': 16,
         'resume': False,
     })
-    lookup = getlookup()
 
+    # try:
+    #     print(f'loading log: log/try_{args.try_no}.json')
+    #     log = eval(open(f'log/try_{args.try_no}.json', 'r').read())
+    # except FileNotFoundError:
     log = {'acc': [], 'loss': [], 'val_acc': []}
+    # print(f'Log {args.try_no} not found')
     zz = 0
     i = 0
     best_acc = 0
     best_no = 0
     start_epoch = 1
 
-    model = getmodel(cls=len(lookup[1]),
+    model = getmodel(cls=1,
                      resume_path='/root/palm/PycharmProjects/plant_d/checkpoint/try_4_densenetbest.t7').cuda()
 
     normalize = transforms.Normalize(mean=[0.485, 0.456, 0.406],
                                      std=[0.229, 0.224, 0.225])
-    optimizer = torch.optim.SGD(model.parameters(), 0.1,
+    optimizer = torch.optim.SGD(model.parameters(), 0.01,
                                 momentum=0.9,
                                 weight_decay=1e-4,
                                 nesterov=False, )
     scheduler = MultiStepLR(optimizer, [20, 40])
-    criterion = nn.CrossEntropyLoss().cuda()
+    # criterion = nn.CrossEntropyLoss().cuda()
+    criterion = nn.MSELoss().cuda()
     train_dataset = datasets.ImageFolder(
         os.path.join(args.traindir),
         transforms.Compose([
             transforms.Resize(args.imsize_l[i]),
             transforms.RandomResizedCrop(args.imsize[i]),
-            # aug.HandCraftPolicy(),
+            aug.HandCraftPolicy(),
             transforms.RandomHorizontalFlip(),
             transforms.RandomVerticalFlip(),
             transforms.ToTensor(),
-            # aug.Cutout(n_holes=1, length=20),
+            aug.Cutout(n_holes=1, length=20),
             normalize,
         ]))
     trainloader = torch.utils.data.DataLoader(train_dataset,
@@ -234,13 +244,17 @@ if __name__ == '__main__':
         for batch_idx, (inputs, targets) in enumerate(trainloader):
             inputs, targets = inputs.to('cuda'), targets.to('cuda')
             outputs = model(inputs.view(-1, 3, args.imsize[i], args.imsize[i]))
-
-            loss = criterion(outputs, targets) / args.batch_mul
+            # print(outputs, targets)
+            # predicted = outputs.rond()
+            outputs = f.sigmoid(outputs)
+            predicted = outputs.round()
+            loss = criterion(outputs.view(-1), targets.type(torch.cuda.FloatTensor)) / args.batch_mul
+            # loss = criterion(outputs, targets) / args.batch_mul
             loss.backward()
             train_loss += loss.item() * args.batch_mul
-            _, predicted = outputs.max(1)
+            # _, predicted = outputs.max(1)
             total += targets.size(0)
-            correct += predicted.eq(targets).sum().item()
+            correct += predicted.eq(targets.type(torch.cuda.FloatTensor)).sum().item()
             lfs = (batch_idx + 1) % args.batch_mul
             if lfs == 0:
                 optimizer.step()
@@ -282,12 +296,15 @@ if __name__ == '__main__':
         with torch.no_grad():
             for batch_idx, (inputs, targets) in enumerate(val_loader):
                 inputs, targets = inputs.to('cuda'), targets.to('cuda')
+                # targets = targets.view(10).type(torch.cuda.FloatTensor)
                 outputs = model(inputs.view(-1, 3, args.imsize[i], args.imsize[i]))
                 # loss = criterion(outputs, targets)
                 # test_loss += loss.cpu().item()
-                _, predicted = outputs.max(1)
+                # outputs = outputs.round()
+                predicted = f.sigmoid(outputs).round()
+                # _, predicted = outputs.max(1)
                 total += targets.size(0)
-                correct += predicted.eq(targets).sum().item()
+                correct += predicted.eq(targets.type(torch.cuda.FloatTensor)).sum().item()
 
                 # progress_bar(batch_idx, len(val_loader), 'Acc: %.3f%%'
                 #              % (100. * correct / total))

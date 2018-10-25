@@ -141,13 +141,13 @@ if __name__ == '__main__':
 
     args = DotDict({
         'batch_size': 32,
-        'batch_mul': 4,
+        'batch_mul': 1,
         'val_batch_size': 10,
         'cuda': True,
         'model': '',
         'train_plot': False,
-        'epochs': [150],
-        'try_no': '2_densesep',
+        'epochs': [90],
+        'try_no': '4_densesep',
         'imsize': [224],
         'imsize_l': [256],
         'traindir': '/root/palm/DATA/plant/typesep_train/',
@@ -157,14 +157,9 @@ if __name__ == '__main__':
     })
     lookup = getlookup()
 
-    try:
-        print(f'loading log: log/try_{args.try_no}.json')
-        log = eval(open(f'log/try_{args.try_no}.json', 'r').read())
-    except FileNotFoundError:
-        log = {}
-        for plant in lookup[1]:
-            log[plant] = {'acc': [], 'loss': [], 'val_acc': []}
-        print(f'Log {args.try_no} not found')
+    log = {}
+    for plant in lookup[1]:
+        log[plant] = {'acc': [], 'loss': [], 'val_acc': []}
     zz = 0
     i = 0
     for plant in lookup[1]:
@@ -181,18 +176,18 @@ if __name__ == '__main__':
                                     momentum=0.9,
                                     weight_decay=1e-4,
                                     nesterov=False, )
-        scheduler = MultiStepLR(optimizer, [20, 60])
+        scheduler = MultiStepLR(optimizer, [20, 60, 100, 200, 400])
         criterion = nn.CrossEntropyLoss().cuda()
         train_dataset = datasets.ImageFolder(
             os.path.join(args.traindir, plant),
             transforms.Compose([
                 transforms.Resize(args.imsize_l[i]),
                 transforms.RandomResizedCrop(args.imsize[i]),
-                aug.HandCraftPolicy(),
+                # aug.HandCraftPolicy(),
                 transforms.RandomHorizontalFlip(),
                 transforms.RandomVerticalFlip(),
                 transforms.ToTensor(),
-                aug.Cutout(n_holes=1, length=20),
+                # aug.Cutout(n_holes=1, length=20),
                 normalize,
             ]))
         trainloader = torch.utils.data.DataLoader(train_dataset,
@@ -232,7 +227,7 @@ if __name__ == '__main__':
 
         def train(epoch):
             global cur_acc
-            print('\nEpoch: %d/%d' % (epoch, args.epochs[i]))
+            print(f'{plant}: epoch - {epoch}')
             model.train()
             train_loss = 0
             correct = 0
@@ -324,11 +319,16 @@ if __name__ == '__main__':
                 wr.write(log.__str__())
 
 
-        for epoch in range(start_epoch, start_epoch + args.epochs[i]):
+        # for epoch in range(start_epoch, start_epoch + args.epochs[i]):
+        epoch = 0
+        while True:
+            epoch += 1
             scheduler.step()
             train(epoch)
             test(epoch)
             print(f'best: {best_acc}: {best_no}/{len(val_loader)*args.val_batch_size}')
-            if cur_acc >= 0.95 and epoch > 40:
+            if cur_acc >= 0.95 and epoch > 30:
+                break
+            elif best_acc > 98 or epoch > 150:
                 break
         # start_epoch += args.epochs[i]

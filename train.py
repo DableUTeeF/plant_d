@@ -137,18 +137,18 @@ class CustomSGD(torch.optim.SGD):
 if __name__ == '__main__':
 
     args = DotDict({
-        'batch_size': 8,
-        'batch_mul': 4,
+        'batch_size': 1,
+        'batch_mul': 32,
         'val_batch_size': 10,
         'cuda': True,
         'model': '',
         'train_plot': False,
         'epochs': [90],
-        'try_no': '8_densenet',
+        'try_no': '2_denseptype',
         'imsize': [224],
-        'imsize_l': [256],
-        'traindir': '/root/palm/DATA/plant/train/',
-        'valdir': '/root/palm/DATA/plant/validate/',
+        'imsize_l': [224],
+        'traindir': '/root/palm/DATA/plant/train',
+        'valdir': '/root/palm/DATA/plant/validate',
         'workers': 16,
         'resume': False,
     })
@@ -169,10 +169,11 @@ if __name__ == '__main__':
     # loss, acc, val_acc:
     # 128   0.001: [4.07, 7.33, ~8], 0.01: []
     # 32    0.001: [], 0.01: []
-    optimizer = torch.optim.SGD(model.parameters(), 0.01,
+    optimizer = torch.optim.RMSprop(model.parameters(), 0.01,
                                 momentum=0.9,
                                 weight_decay=1e-4,
-                                nesterov=False, )
+                                # nesterov=False,
+                                    )
     # scheduler = ExponentialLR(optimizer, 0.97)
     scheduler = MultiStepLR(optimizer, [20, 40, 60])
     # scheduler2 = MultiStepLR(optimizer, [2], gamma=5)
@@ -183,18 +184,18 @@ if __name__ == '__main__':
         train_dataset = datasets.ImageFolder(
             args.traindir,
             transforms.Compose([
-                transforms.Resize(args.imsize_l[i]),
+                transforms.Resize(args.imsize[i]),
                 # ReplicatePad(args.imsize_l[i]),
                 # transforms.RandomResizedCrop(args.imsize[i]),
                 aug.HandCraftPolicy(),
                 transforms.RandomHorizontalFlip(),
                 transforms.RandomVerticalFlip(),
-                transforms.FiveCrop(args.imsize[i]),
-                transforms.Lambda(
-                    lambda crops: torch.stack([normalize(transforms.ToTensor()(crop)) for crop in crops])),
-                # transforms.ToTensor(),
+                # transforms.FiveCrop(args.imsize[i]),
+                # transforms.Lambda(
+                #     lambda crops: torch.stack([normalize(transforms.ToTensor()(crop)) for crop in crops])),
+                transforms.ToTensor(),
                 # aug.Cutout(n_holes=1, length=20),
-                # normalize,
+                normalize,
             ]))
         trainloader = torch.utils.data.DataLoader(train_dataset,
                                                   batch_size=args.batch_size,
@@ -203,15 +204,15 @@ if __name__ == '__main__':
                                                   pin_memory=False)
         val_loader = torch.utils.data.DataLoader(
             datasets.ImageFolder(args.valdir, transforms.Compose([
-                transforms.Resize(args.imsize_l[i]),
+                transforms.Resize(args.imsize[i]),
                 # ReplicatePad(args.imsize_l[i]),
-                # transforms.CenterCrop(args.imsize[i]),
-                # transforms.ToTensor(),
-                transforms.FiveCrop(args.imsize[i]),
-                transforms.Lambda(
-                    lambda crops: torch.stack([normalize(transforms.ToTensor()(crop)) for crop in crops])),
+                transforms.CenterCrop(args.imsize[i]),
+                transforms.ToTensor(),
+                # transforms.FiveCrop(args.imsize[i]),
+                # transforms.Lambda(
+                #     lambda crops: torch.stack([normalize(transforms.ToTensor()(crop)) for crop in crops])),
 
-                # normalize,
+                normalize,
             ])),
             batch_size=args.val_batch_size,
             num_workers=args.workers,
@@ -250,8 +251,8 @@ if __name__ == '__main__':
                 outputs = model(inputs.view(-1, 3, args.imsize[i], args.imsize[i]))
                 # targets = torch.cat((targets, targets, targets, targets, targets))
 
-                bs, ncrops, c, h, w = inputs.size()
-                outputs = outputs.view(bs, ncrops, -1).mean(1)
+                # bs, ncrops, c, h, w = inputs.size()
+                # outputs = outputs.view(bs, ncrops, -1).mean(1)
 
                 loss = criterion(outputs, targets) / args.batch_mul
                 loss.backward()
@@ -303,8 +304,8 @@ if __name__ == '__main__':
                     outputs = model(inputs.view(-1, 3, args.imsize[i], args.imsize[i]))
                     # loss = criterion(outputs, targets)
                     """"""
-                    bs, ncrops, c, h, w = inputs.size()
-                    outputs = outputs.view(bs, ncrops, -1).mean(1)
+                    # bs, ncrops, c, h, w = inputs.size()
+                    # outputs = outputs.view(bs, ncrops, -1).mean(1)
                     """"""
                     # test_loss += loss.cpu().item()
                     _, predicted = outputs.max(1)

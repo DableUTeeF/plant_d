@@ -18,11 +18,12 @@ def densenet(cls=61):
 
 
 if __name__ == '__main__':
-    model = densenet().cuda()
+    model = densenet(11).cuda()
     # print(model)
-    checkpoint = torch.load('/home/palm/PycharmProjects/plant_d/checkpoint/try_1_dense201best.t7')
+    checkpoint = torch.load('checkpoint/try_2_denseptype-temp.t7')
     model.load_state_dict(checkpoint['net'])
-    directory = '/media/palm/Unimportant/pdr2018/validate'
+    directory = '/root/palm/DATA/plant/typesep_type_validate/'
+    # directory = '/media/palm/Unimportant/pdr2018/typesep_type_validate'
     out = []
     c = 0
     normalize = transforms.Normalize(mean=[0.485, 0.456, 0.406],
@@ -35,17 +36,28 @@ if __name__ == '__main__':
         datasets.ImageFolder(directory, transforms.Compose([
             transforms.Resize(256),
             # ReplicatePad(args.imsize_l[i]),
-            # transforms.CenterCrop(224),
-            transforms.FiveCrop(224),
-            # transforms.ToTensor(),
-            transforms.Lambda(lambda crops: torch.stack([normalize(transforms.ToTensor()(crop)) for crop in crops])),
+            transforms.CenterCrop(224),
+            # transforms.FiveCrop(224),
+            transforms.ToTensor(),
+            # transforms.Lambda(lambda crops: torch.stack([normalize(transforms.ToTensor()(crop)) for crop in crops])),
 
-            # normalize,
+            normalize,
         ])),
         batch_size=1,
         num_workers=4,
         pin_memory=False)
-
+    labels_1_ptype = {0: 8,
+                      1: 2,
+                      2: 0,
+                      3: 7,
+                      4: 9,
+                      5: 1,
+                      6: 4,
+                      7: 3,
+                      8: 10,
+                      9: 5,
+                      10: 6,
+                      }
     with torch.no_grad():
         for batch_idx, (inputs, targets) in enumerate(val_loader):
             inputs, targets = inputs.to('cuda'), targets.to('cuda')
@@ -60,7 +72,7 @@ if __name__ == '__main__':
             else:
                 correct += 1
             c += 1
-            print(correct, '/', c, end='\r')
+            print(correct, '/', c, '/', f'{null}', end='\r')
 
-    with open('/home/palm/PycharmProjects/plant_d/False_prd_1_dense201.json', 'w') as wr:
+    with open('False_prd_1_dense201.json', 'w') as wr:
         json.dump(out, wr)
