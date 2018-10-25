@@ -22,8 +22,8 @@ if __name__ == '__main__':
     # print(model)
     checkpoint = torch.load('checkpoint/try_2_denseptype-temp.t7')
     model.load_state_dict(checkpoint['net'])
-    directory = '/root/palm/DATA/plant/typesep_type_validate/'
-    # directory = '/media/palm/Unimportant/pdr2018/typesep_type_validate'
+    # directory = '/root/palm/DATA/plant/typesep_type_validate/'
+    directory = '/media/palm/Unimportant/pdr2018/typesep_type_validate'
     out = []
     c = 0
     normalize = transforms.Normalize(mean=[0.485, 0.456, 0.406],

@@ -62,13 +62,16 @@ if __name__ == '__main__':
         ncls = len(c[plant])
         # mm = densenet(ncls).cuda()
         mf.append(densenet(ncls).cuda())
-        checkpoint = torch.load(f'checkpoint/try_3_densesep-{plant}best.t7')
+        checkpoint = torch.load(f'checkpoint/try_4_densesep-{plant}best.t7')
         mf[idx].load_state_dict(checkpoint['net'])
+        mf[idx].eval()
+
     model = densenet(11).cuda()
     # print(model)
-    checkpoint = torch.load('/home/palm/PycharmProjects/plant_d/checkpoint/try_2_denseptype-temp.t7')
+    checkpoint = torch.load('checkpoint/try_2_denseptype-temp.t7')
     model.load_state_dict(checkpoint['net'])
     directory = '/home/palm/PycharmProjects/DATA/ai_challenger_pdr2018_testA_20180905/AgriculturalDisease_testA/'
+    # directory = '/root/palm/DATA/plant/ai_challenger_pdr2018_testA_20180905/AgriculturalDisease_testA/'
     out = []
     co = 0
     normalize = transforms.Normalize(mean=[0.485, 0.456, 0.406],
@@ -112,5 +115,5 @@ if __name__ == '__main__':
             co += 1
             print(co, end='\r')
 
-    with open('/home/palm/PycharmProjects/plant_d/prd/2_sep.json', 'w') as wr:
+    with open('prd/3_sep.json', 'w') as wr:
         json.dump(out, wr)

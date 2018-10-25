@@ -142,7 +142,7 @@ def getlookup():
         ci = b.index(a[idx].split('_')[0])
         if b[ci] not in c:
             c[b[ci]] = []
-        c[b[ci]].append(a[idx])
+        c[b[ci]].append(f'{a[idx]}')
     for k in c:
         c[k] = sorted(c[k])
     return a, sorted(b), c

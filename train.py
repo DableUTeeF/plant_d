@@ -144,7 +144,7 @@ if __name__ == '__main__':
         'model': '',
         'train_plot': False,
         'epochs': [90],
-        'try_no': '2_denseptype',
+        'try_no': '3_densenoresize',
         'imsize': [224],
         'imsize_l': [224],
         'traindir': '/root/palm/DATA/plant/train',
@@ -169,8 +169,8 @@ if __name__ == '__main__':
     # loss, acc, val_acc:
     # 128   0.001: [4.07, 7.33, ~8], 0.01: []
     # 32    0.001: [], 0.01: []
-    optimizer = torch.optim.RMSprop(model.parameters(), 0.01,
-                                momentum=0.9,
+    optimizer = torch.optim.Adam(model.parameters(), 0.001,
+                                # momentum=0.9,
                                 weight_decay=1e-4,
                                 # nesterov=False,
                                     )
@@ -187,7 +187,7 @@ if __name__ == '__main__':
                 transforms.Resize(args.imsize[i]),
                 # ReplicatePad(args.imsize_l[i]),
                 # transforms.RandomResizedCrop(args.imsize[i]),
-                aug.HandCraftPolicy(),
+                # aug.HandCraftPolicy(),
                 transforms.RandomHorizontalFlip(),
                 transforms.RandomVerticalFlip(),
                 # transforms.FiveCrop(args.imsize[i]),
@@ -239,7 +239,7 @@ if __name__ == '__main__':
 
         def train(epoch):
             print('\nEpoch: %d/%d' % (epoch, args.epochs[i]))
-            model.train()
+            model.train(False)
             train_loss = 0
             correct = 0
             total = 0
@@ -248,7 +248,7 @@ if __name__ == '__main__':
             last_time = start_time
             for batch_idx, (inputs, targets) in enumerate(trainloader):
                 inputs, targets = inputs.to('cuda'), targets.to('cuda')
-                outputs = model(inputs.view(-1, 3, args.imsize[i], args.imsize[i]))
+                outputs = model(inputs)
                 # targets = torch.cat((targets, targets, targets, targets, targets))
 
                 # bs, ncrops, c, h, w = inputs.size()
@@ -301,7 +301,7 @@ if __name__ == '__main__':
             with torch.no_grad():
                 for batch_idx, (inputs, targets) in enumerate(val_loader):
                     inputs, targets = inputs.to('cuda'), targets.to('cuda')
-                    outputs = model(inputs.view(-1, 3, args.imsize[i], args.imsize[i]))
+                    outputs = model(inputs)
                     # loss = criterion(outputs, targets)
                     """"""
                     # bs, ncrops, c, h, w = inputs.size()

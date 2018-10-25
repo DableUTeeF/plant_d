@@ -45,12 +45,12 @@ def predict(inputs, cls):
     ncls = len(c[b[cls]])
     plant = b[cls]
 
-    mm = densenet(ncls).cuda()
-    checkpoint = torch.load(f'checkpoint/try_3_densesep-{plant}best.t7')
+    mm = densenet(ncls)
+    checkpoint = torch.load(f'checkpoint/try_4_densesep-{plant}best.t7')
     mm.load_state_dict(checkpoint['net'])
-    fff = mm(inputs)
-    _, fsa = fff.max(1)
-    return fsa, plant
+    fff = mm(inputs.cpu())
+    # _, fsa = fff.max(1)
+    return fff.cuda(), plant
 
 
 def getidx(plant, idx):
@@ -67,6 +67,7 @@ if __name__ == '__main__':
         mf[plant] = (densenet(ncls).cuda())
         checkpoint = torch.load(f'checkpoint/try_4_densesep-{plant}best.t7')
         mf[plant].load_state_dict(checkpoint['net'])
+        mf[plant].eval()
     checkpoint = torch.load('checkpoint/try_2_denseptype-temp.t7')
     model.load_state_dict(checkpoint['net'])
     directory = '/root/palm/DATA/plant/validate/'
@@ -89,7 +90,7 @@ if __name__ == '__main__':
         ])),
         shuffle=True,
         batch_size=1,
-        num_workers=4,
+        num_workers=0,
         pin_memory=False)
     samples = {}
     with torch.no_grad():
@@ -100,9 +101,8 @@ if __name__ == '__main__':
             # cls = labels_1_ptype[pp.cpu().detach().numpy()[0]]
             cls = pp.cpu().detach().numpy()[0]
             ncls = len(c[b[cls]])
-            plant = b[cls]
-
-            fff = mf[plant](inputs)
+            # fff, plant = predict(inputs, cls)
+            plant = b[cls]; fff = mf[plant](inputs)
             _, predicted = fff.max(1)
 
             if plant not in samples:
@@ -115,7 +115,8 @@ if __name__ == '__main__':
             out.append({'image_id': val_loader.sampler.data_source.imgs[batch_idx][0].split('/')[-1],
                         'predicted': int(label),
                         'expected': int(targets.cpu().detach().numpy()[0]),
-                        'plant': plant,
+                        'predicted_label': a[int(label)],
+                        'expected_label': a[int(targets.cpu().detach().numpy()[0])],
                         'output_from_model': int(predicted.cpu().detach().numpy()[0]),
                         })
 
@@ -123,5 +124,5 @@ if __name__ == '__main__':
             co += 1
             print(f'{(correct/co):.2}', ': ', correct, '/', co, '            ', end='\r')
 
-            with open('tmp/1_sepeval.json', 'w') as wr:
-                json.dump(samples, wr)
+            with open('3_sepeval.json', 'w') as wr:
+                json.dump(out, wr)
