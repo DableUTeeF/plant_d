@@ -4,6 +4,7 @@ from torchvision.models.densenet import densenet201
 from torchvision import transforms
 from torchvision import datasets
 import json
+import models
 
 
 def densenet(cls=61):
@@ -13,11 +14,22 @@ def densenet(cls=61):
     return model_conv
 
 
+def pnasnet(cls=61):
+    # model_conv = models.dense_nonorm.densenet201(pretrained=False)
+    # num_ftrs = model_conv.classifier.in_features
+    # model_conv.classifier = nn.Linear(num_ftrs, cls)
+    model_conv = models.pnasnet.pnasnet5large(cls, None)
+    num_ftrs = model_conv.last_linear.in_features
+    model_conv.last_linear = nn.Linear(num_ftrs, cls)
+    return model_conv
+
+
 if __name__ == '__main__':
-    model = densenet().cuda()
+    model = pnasnet().cuda()
     # print(model)
-    checkpoint = torch.load('/home/palm/PycharmProjects/plant_d/checkpoint/try_1_dense201best.t7')
+    checkpoint = torch.load('checkpoint/try_3_pnasnetbest.t7')
     model.load_state_dict(checkpoint['net'])
+    # directory = '/root/palm/DATA/plant/ai_challenger_pdr2018_testA_20180905/AgriculturalDisease_testA/'
     directory = '/home/palm/PycharmProjects/DATA/ai_challenger_pdr2018_testA_20180905/AgriculturalDisease_testA/'
     out = []
     c = 0
@@ -29,9 +41,9 @@ if __name__ == '__main__':
     total = 0
     val_loader = torch.utils.data.DataLoader(
         datasets.ImageFolder(directory, transforms.Compose([
-            transforms.Resize(256),
+            transforms.Resize(331),
             # ReplicatePad(args.imsize_l[i]),
-            transforms.CenterCrop(224),
+            transforms.CenterCrop(331),
             # transforms.FiveCrop(224),
 
             transforms.ToTensor(),
@@ -54,5 +66,5 @@ if __name__ == '__main__':
             c += 1
             print(correct, '/', c, end='\r')
 
-    with open('/home/palm/PycharmProjects/plant_d/prd/1_dense201.json', 'w') as wr:
+    with open('prd/3_pnasnet.json', 'w') as wr:
         json.dump(out, wr)

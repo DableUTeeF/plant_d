@@ -1,6 +1,6 @@
 import copy
 
-import click
+import os
 import cv2
 import numpy as np
 import torch
@@ -45,7 +45,11 @@ def getmodel(cls=61):
 
 
 def main():
-    image_path = '/media/palm/Unimportant/pdr2018/typesep_validate/Tomato/Tomato_Spider_Mite_Damage_general/00a349865fedfe8a249e090867083911.jpg'
+    root_path = '/media/palm/Unimportant/pdr2018/typesep_validate/Tomato/'
+    image_name = 'c9ebc74c2177ce60a8230855333fb9e7.jpg'
+    folder_name = '14_Tomato_Spider_Mite_Damage_Serious'
+    # image_path = root_path+'/14_Tomato_Spider_Mite_Damage_Serious/1c0f1ae1374d01c2933069232735a331.jpg'
+    image_path = os.path.join(root_path, folder_name, image_name)
     topk = 1
     cuda = 'cuda'
     arch = 'densenet201'
@@ -82,7 +86,7 @@ def main():
         print('Running on the CPU')
 
     # Synset words
-    classes = b
+    classes = c['Tomato']
 
     # Model
     model = getmodel(20)
@@ -112,7 +116,7 @@ def main():
         gcam.backward(idx=idx[i])
         output = gcam.generate(target_layer=CONFIG['target_layer'])
 
-        save_gradcam('results/{}_gcam_{}.png'.format(classes[idx[i]], arch), output, raw_image)
+        save_gradcam('results/{}_{}_gcam_{}.png'.format(image_name, classes[idx[i]], arch), output, raw_image)
         print('[{:.5f}] {}'.format(probs[i], classes[idx[i]]))
 
     # =========================================================================
@@ -125,7 +129,7 @@ def main():
         bp.backward(idx=idx[i])
         output = bp.generate()
 
-        save_gradient('results/{}_bp_{}.png'.format(classes[idx[i]], arch), output)
+        save_gradient('results/{}_{}_bp_{}.png'.format(image_name, classes[idx[i]], arch), output)
         print('[{:.5f}] {}'.format(probs[i], classes[idx[i]]))
 
     # =========================================================================
@@ -138,7 +142,7 @@ def main():
         deconv.backward(idx=idx[i])
         output = deconv.generate()
 
-        save_gradient('results/{}_deconv_{}.png'.format(classes[idx[i]], arch), output)
+        save_gradient('results/{}_{}_deconv_{}.png'.format(image_name, classes[idx[i]], arch), output)
         print('[{:.5f}] {}'.format(probs[i], classes[idx[i]]))
 
     # =========================================================================
@@ -158,8 +162,8 @@ def main():
         region = cv2.resize(region, (w, h))[..., np.newaxis]
         output = feature * region
 
-        save_gradient('results/{}_gbp_{}.png'.format(classes[idx[i]], arch), feature)
-        save_gradient('results/{}_ggcam_{}.png'.format(classes[idx[i]], arch), output)
+        save_gradient('results/{}_{}_gbp_{}.png'.format(image_name, classes[idx[i]], arch), feature)
+        save_gradient('results/{}_{}_ggcam_{}.png'.format(image_name, classes[idx[i]], arch), output)
         print('[{:.5f}] {}'.format(probs[i], classes[idx[i]]))
 
 

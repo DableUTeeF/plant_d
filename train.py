@@ -17,7 +17,7 @@ import torchvision.transforms as transforms
 import torch.nn.functional as f
 import torchvision.datasets as datasets
 import torchvision.transforms.functional as F
-from utils import progress_bar, format_time
+from utils import Logger, format_time
 import models
 from torch.optim.lr_scheduler import MultiStepLR
 import numpy as np
@@ -32,11 +32,12 @@ import time
 
 
 def getmodel(cls=61):
-    # model_conv = models.nasnet.nasnetmobile(cls)
-    model_conv = models.densenet.densenet201(pretrained=True)
-    num_ftrs = model_conv.classifier.in_features
-    # model_conv.classifier = nn.Conv1d(num_ftrs, cls, kernel_size=(1, 1))
-    model_conv.classifier = nn.Linear(num_ftrs, cls)
+    # model_conv = models.dense_nonorm.densenet201(pretrained=False)
+    # num_ftrs = model_conv.classifier.in_features
+    # model_conv.classifier = nn.Linear(num_ftrs, cls)
+    model_conv = models.pnasnet.pnasnet5large(cls, 'imagenet')
+    num_ftrs = model_conv.last_linear.in_features
+    model_conv.last_linear = nn.Linear(num_ftrs, cls)
     return model_conv
 
 
@@ -137,21 +138,22 @@ class CustomSGD(torch.optim.SGD):
 if __name__ == '__main__':
 
     args = DotDict({
-        'batch_size': 1,
-        'batch_mul': 32,
+        'batch_size': 6,
+        'batch_mul': 4,
         'val_batch_size': 10,
         'cuda': True,
         'model': '',
         'train_plot': False,
-        'epochs': [90],
-        'try_no': '3_densenoresize',
-        'imsize': [224],
-        'imsize_l': [224],
+        'epochs': [180],
+        'try_no': '3_pnasnet',
+        'imsize': [331],
+        'imsize_l': [350],
         'traindir': '/root/palm/DATA/plant/train',
         'valdir': '/root/palm/DATA/plant/validate',
         'workers': 16,
         'resume': False,
     })
+    logger = Logger(f'./logs/{args.try_no}')
     best_acc = 0
     best_no = 0
     start_epoch = 1
@@ -169,13 +171,13 @@ if __name__ == '__main__':
     # loss, acc, val_acc:
     # 128   0.001: [4.07, 7.33, ~8], 0.01: []
     # 32    0.001: [], 0.01: []
-    optimizer = torch.optim.Adam(model.parameters(), 0.001,
-                                # momentum=0.9,
+    optimizer = torch.optim.SGD(model.parameters(), 0.1,
+                                momentum=0.9,
                                 weight_decay=1e-4,
                                 # nesterov=False,
-                                    )
+                                )
     # scheduler = ExponentialLR(optimizer, 0.97)
-    scheduler = MultiStepLR(optimizer, [20, 40, 60])
+    scheduler = MultiStepLR(optimizer, [30, 60, 90, 120, 150])
     # scheduler2 = MultiStepLR(optimizer, [2], gamma=5)
     # platue = ReduceLROnPlateau(optimizer, 'max', patience=3, factor=0.2)
     criterion = nn.CrossEntropyLoss().cuda()
@@ -186,8 +188,8 @@ if __name__ == '__main__':
             transforms.Compose([
                 transforms.Resize(args.imsize[i]),
                 # ReplicatePad(args.imsize_l[i]),
-                # transforms.RandomResizedCrop(args.imsize[i]),
-                # aug.HandCraftPolicy(),
+                transforms.RandomResizedCrop(args.imsize[i]),
+                aug.HandCraftPolicy(),
                 transforms.RandomHorizontalFlip(),
                 transforms.RandomVerticalFlip(),
                 # transforms.FiveCrop(args.imsize[i]),
@@ -239,7 +241,7 @@ if __name__ == '__main__':
 
         def train(epoch):
             print('\nEpoch: %d/%d' % (epoch, args.epochs[i]))
-            model.train(False)
+            model.train()
             train_loss = 0
             correct = 0
             total = 0
@@ -267,9 +269,8 @@ if __name__ == '__main__':
                 step_time = time.time() - last_time
                 last_time = time.time()
                 try:
-                    _, term_width = os.popen('stty size', 'r').read().split()
-                    print(f'\r{" "*(int(term_width))}', end='')
-                except ValueError:
+                    print(f'\r{" "*(len(lss))}', end='')
+                except NameError:
                     pass
                 lss = f'{batch_idx}/{len(trainloader)} | ' + \
                       f'ETA: {format_time(step_time*(len(trainloader)-batch_idx))} - ' + \
@@ -277,16 +278,18 @@ if __name__ == '__main__':
                       f'acc: {correct/total:.{5}}'
                 print(f'\r{lss}', end='')
 
-            # progress_bar(batch_idx, len(trainloader),
-            #              f'Loss: {train_loss/(batch_idx+1):.{3}} | Acc: {100.*correct/total:.{3}}%')
-            # else:
-            #     print(f'sync {t2}, forw {t3}, loss {t4}, bck {t5}, oth {t6}', end='\r ')
-
+            for tag, value in model.named_parameters():
+                tag = tag.replace('.', '/')
+                logger.histo_summary(tag, value.data.cpu().numpy(), epoch)
+                logger.histo_summary(tag + '/grad', value.grad.data.cpu().numpy(), epoch)
+            logger.scalar_summary('acc', correct/total, epoch)
+            logger.scalar_summary('loss', train_loss/(batch_idx+1), epoch)
             print(f'\r '
                   f'ToT: {format_time(time.time() - start_time)} - '
                   f'loss: {train_loss/(batch_idx+1):.{3}} - '
                   f'acc: {correct/total:.{5}}', end='')
             optimizer.step()
+            optimizer.zero_grad()
             # scheduler2.step()
             log['acc'].append(100. * correct / total)
             log['loss'].append(train_loss / (batch_idx + 1))
@@ -295,25 +298,27 @@ if __name__ == '__main__':
         def test(epoch):
             global best_acc, best_no
             model.eval()
-            # test_loss = 0
+            test_loss = 0
             correct = 0
             total = 0
             with torch.no_grad():
                 for batch_idx, (inputs, targets) in enumerate(val_loader):
                     inputs, targets = inputs.to('cuda'), targets.to('cuda')
                     outputs = model(inputs)
-                    # loss = criterion(outputs, targets)
+                    loss = criterion(outputs, targets)
                     """"""
                     # bs, ncrops, c, h, w = inputs.size()
                     # outputs = outputs.view(bs, ncrops, -1).mean(1)
                     """"""
-                    # test_loss += loss.cpu().item()
+                    test_loss += loss.item()
                     _, predicted = outputs.max(1)
                     total += targets.size(0)
                     correct += predicted.eq(targets).sum().item()
 
                     # progress_bar(batch_idx, len(val_loader), 'Acc: %.3f%%'
                     #              % (100. * correct / total))
+            logger.scalar_summary('val_acc', correct/total, epoch)
+            logger.scalar_summary('val_loss', test_loss/(batch_idx+1), epoch)
             print(f' - val_acc: {correct / total:.{5}}')
             # platue.step(correct)
             log['val_acc'].append(100. * correct / total)

@@ -13,6 +13,70 @@ import torch as th
 
 import torch.nn as nn
 import torch.nn.init as init
+import tensorflow as tf
+import numpy as np
+import scipy.misc
+from io import BytesIO
+
+
+class Logger(object):
+
+    def __init__(self, log_dir):
+        """Create a summary writer logging to log_dir."""
+        self.writer = tf.summary.FileWriter(log_dir)
+
+    def scalar_summary(self, tag, value, step):
+        """Log a scalar variable."""
+        summary = tf.Summary(value=[tf.Summary.Value(tag=tag, simple_value=value)])
+        self.writer.add_summary(summary, step)
+
+    def image_summary(self, tag, images, step):
+        """Log a list of images."""
+
+        img_summaries = []
+        for i, img in enumerate(images):
+            # Write the image to a string
+            s = BytesIO()
+            scipy.misc.toimage(img).save(s, format="png")
+
+            # Create an Image object
+            img_sum = tf.Summary.Image(encoded_image_string=s.getvalue(),
+                                       height=img.shape[0],
+                                       width=img.shape[1])
+            # Create a Summary value
+            img_summaries.append(tf.Summary.Value(tag='%s/%d' % (tag, i), image=img_sum))
+
+        # Create and write Summary
+        summary = tf.Summary(value=img_summaries)
+        self.writer.add_summary(summary, step)
+
+    def histo_summary(self, tag, values, step, bins=1000):
+        """Log a histogram of the tensor of values."""
+
+        # Create a histogram using numpy
+        counts, bin_edges = np.histogram(values, bins=bins)
+
+        # Fill the fields of the histogram proto
+        hist = tf.HistogramProto()
+        hist.min = float(np.min(values))
+        hist.max = float(np.max(values))
+        hist.num = int(np.prod(values.shape))
+        hist.sum = float(np.sum(values))
+        hist.sum_squares = float(np.sum(values ** 2))
+
+        # Drop the start of the first bin
+        bin_edges = bin_edges[1:]
+
+        # Add bin edges and counts
+        for edge in bin_edges:
+            hist.bucket_limit.append(edge)
+        for c in counts:
+            hist.bucket.append(c)
+
+        # Create and write Summary
+        summary = tf.Summary(value=[tf.Summary.Value(tag=tag, histo=hist)])
+        self.writer.add_summary(summary, step)
+        self.writer.flush()
 
 
 def get_mean_and_std(dataset):
@@ -46,63 +110,6 @@ def init_params(net):
                 init.constant(m.bias, 0)
 
 
-_, term_width = os.popen('stty size', 'r').read().split()
-term_width = int(term_width)
-
-TOTAL_BAR_LENGTH = 20.
-last_time = time.time()
-begin_time = last_time
-
-
-def progress_bar(current, total, msg=None):
-    global last_time, begin_time
-    if current == 0:
-        begin_time = time.time()  # Reset for new bar.
-
-    cur_len = int(TOTAL_BAR_LENGTH * current / total)
-    rest_len = int(TOTAL_BAR_LENGTH - cur_len) - 1
-    lens = len(str(total))
-    # sys.stdout.write(f' {current + 1: 0{lens}}/{total} ')
-    sys.stdout.write('%d' % ((current+1)*100/total))
-    sys.stdout.write('%')
-    sys.stdout.write(' [')
-    for i in range(cur_len):
-        sys.stdout.write('=')
-    sys.stdout.write('>')
-    for i in range(rest_len):
-        sys.stdout.write('.')
-    sys.stdout.write(']')
-
-    cur_time = time.time()
-    step_time = cur_time - last_time
-    last_time = cur_time
-    tot_time = cur_time - begin_time
-    L = []
-    if current + 1 >= total:
-        L.append('Tot: %s' % format_time(tot_time))
-    else:
-        L.append('ETA: %s' % format_time(step_time*(total-current)))
-    if msg:
-        L.append(' | ' + msg)
-
-    msg = ''.join(L)
-    sys.stdout.write(msg)
-    # for i in range(term_width - int(TOTAL_BAR_LENGTH) - len(msg) - 1):
-    #     sys.stdout.write(' ')
-    sys.stdout.write(' ')
-
-    # Go back to the center of the bar.
-    for i in range(term_width - int(TOTAL_BAR_LENGTH / 2)):
-        sys.stdout.write('\b')
-    # sys.stdout.write('%d' % ((current + 1) * 100 / total))
-    # sys.stdout.write('%')
-    if current < total - 1:
-        sys.stdout.write('\r')
-    else:
-        sys.stdout.write('\n')
-    sys.stdout.flush()
-
-
 def format_time(seconds):
     days = int(seconds / 3600 / 24)
     seconds = seconds - days * 3600 * 24
@@ -134,76 +141,3 @@ def format_time(seconds):
     if f == '':
         f = '0ms'
     return f
-
-
-def summary(input_size, model):
-    def register_hook(module):
-        def hook(module, input, output):
-            class_name = str(module.__class__).split('.')[-1].split("'")[0]
-            module_idx = len(summary)
-
-            m_key = '%s-%i' % (class_name, module_idx + 1)
-            summary[m_key] = OrderedDict()
-            summary[m_key]['input_shape'] = list(input[0].size())
-            summary[m_key]['input_shape'][0] = -1
-            summary[m_key]['output_shape'] = list(output.size())
-            summary[m_key]['output_shape'][0] = -1
-
-            params = 0
-            if hasattr(module, 'weight'):
-                params += th.prod(th.LongTensor(list(module.weight.size())))
-                if module.weight.requires_grad:
-                    summary[m_key]['trainable'] = True
-                else:
-                    summary[m_key]['trainable'] = False
-            # if hasattr(module, 'bias'):
-            #     params += th.prod(th.LongTensor(list(module.bias.size())))
-            summary[m_key]['nb_params'] = params
-
-        if not isinstance(module, nn.Sequential) and \
-                not isinstance(module, nn.ModuleList) and \
-                not (module == model):
-            hooks.append(module.register_forward_hook(hook))
-
-    dtype = th.cuda.FloatTensor
-
-    # check if there are multiple inputs to the network
-    if isinstance(input_size[0], (list, tuple)):
-        x = [Variable(th.rand(1, *in_size)).type(dtype) for in_size in input_size]
-    else:
-        x = Variable(th.rand(1, *input_size)).type(dtype)
-
-    print(x.shape)
-    print(type(x[0]))
-    # create properties
-    summary = OrderedDict()
-    hooks = []
-    # register hook
-    model.apply(register_hook)
-    # make a forward pass
-    model(x)
-    # remove these hooks
-    for h in hooks:
-        h.remove()
-
-    print('----------------------------------------------------------------')
-    line_new = '{:>20}  {:>25} {:>15}'.format('Layer (type)', 'Output Shpae', 'Param #')
-    print(line_new)
-    print('================================================================')
-    total_params = 0
-    trainable_params = 0
-    for layer in summary:
-        # input_shape, output_shape, trainable, nb_params
-        line_new = '{:>20}  {:>25} {:>15}'.format(layer, str(summary[layer]['output_shape']),
-                                                  str(summary[layer]['nb_params']))
-        total_params += summary[layer]['nb_params']
-        if 'trainable' in summary[layer]:
-            if summary[layer]['trainable']:
-                trainable_params += summary[layer]['nb_params']
-        print(line_new)
-    print('================================================================')
-    print('Total params: ' + str(total_params))
-    print('Trainable params: ' + str(trainable_params))
-    print('Non-trainable params: ' + str(total_params - trainable_params))
-    print('----------------------------------------------------------------')
-    return summary

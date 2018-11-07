@@ -70,7 +70,7 @@ if __name__ == '__main__':
     lookup = getlookup()
     model = densenet(len(lookup[2]['Tomato'])).cuda()
 
-    checkpoint = torch.load('/home/palm/PycharmProjects/plant_d/checkpoint/try_3_densesep-Tomatobest.t7')
+    checkpoint = torch.load('/home/palm/PycharmProjects/plant_d/checkpoint/try_4_densesep-Tomatobest.t7')
     model.load_state_dict(checkpoint['net'])
     directory = '/media/palm/Unimportant/pdr2018/typesep_validate/Tomato/'
     out = []
