@@ -30,7 +30,8 @@ if __name__ == '__main__':
     checkpoint = torch.load('checkpoint/try_3_pnasnetbest.t7')
     model.load_state_dict(checkpoint['net'])
     # directory = '/root/palm/DATA/plant/ai_challenger_pdr2018_testA_20180905/AgriculturalDisease_testA/'
-    directory = '/home/palm/PycharmProjects/DATA/ai_challenger_pdr2018_testA_20180905/AgriculturalDisease_testA/'
+    # directory = '/home/palm/PycharmProjects/DATA/ai_challenger_pdr2018_testA_20180905/AgriculturalDisease_testA/'
+    directory = '/home/palm/PycharmProjects/DATA/ai_challenger_pdr2018_testb_20181023/AgriculturalDisease_testB/'
     out = []
     c = 0
     normalize = transforms.Normalize(mean=[0.485, 0.456, 0.406],
@@ -66,5 +67,5 @@ if __name__ == '__main__':
             c += 1
             print(correct, '/', c, end='\r')
 
-    with open('prd/3_pnasnet.json', 'w') as wr:
+    with open('prd/3_pnasnet_B.json', 'w') as wr:
         json.dump(out, wr)

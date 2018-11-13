@@ -78,6 +78,17 @@ class Logger(object):
         self.writer.add_summary(summary, step)
         self.writer.flush()
 
+    def text_summary(self, tag, value, step):
+        """Log a scalar variable."""
+        meta = tf.SummaryMetadata()
+        meta.plugin_data.plugin_name = "text"
+        text_tensor = tf.make_tensor_proto(value, dtype=tf.string)
+
+        summary = tf.Summary()
+        # value=[tf.Summary.Value(tag=tag, simple_value=meta, tensor=text_tensor)]
+        summary.value.add(tag=tag, metadata=meta, tensor=text_tensor)
+        self.writer.add_summary(summary, step)
+
 
 def get_mean_and_std(dataset):
     """Compute the mean and std value of dataset."""

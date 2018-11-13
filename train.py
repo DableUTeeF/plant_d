@@ -154,6 +154,10 @@ if __name__ == '__main__':
         'resume': False,
     })
     logger = Logger(f'./logs/{args.try_no}')
+    logger.text_summary('Describe', 'Progressive NasNet5', 0)
+    logger.text_summary('Describe', 'Batch size: 6*4', 1)
+    logger.text_summary('Describe', 'Input size: 331/350', 2)
+    logger.text_summary('Describe', 'Input size: 331/350', 3)
     best_acc = 0
     best_no = 0
     start_epoch = 1
